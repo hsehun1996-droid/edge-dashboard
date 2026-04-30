@@ -1,0 +1,4372 @@
+[
+  {
+    "companyName": "삼성전자",
+    "items": [
+      {
+        "productName": "5G 이동통신 기지국",
+        "hsCode": "8517.79-2000",
+        "normalizedHsCode": "8517792000"
+      },
+      {
+        "productName": "CMOS 이미지센서",
+        "hsCode": "8542.39-1000",
+        "normalizedHsCode": "8542391000"
+      },
+      {
+        "productName": "SSD",
+        "hsCode": "8523.51-1000",
+        "normalizedHsCode": "8523511000"
+      },
+      {
+        "productName": "가정용 냉장고",
+        "hsCode": "8418.10-1030",
+        "normalizedHsCode": "8418101030"
+      },
+      {
+        "productName": "가정용 드럼 세탁기",
+        "hsCode": "8450.20-0000",
+        "normalizedHsCode": "8450200000"
+      },
+      {
+        "productName": "가정용 전기 건조기",
+        "hsCode": "8450.20-0000",
+        "normalizedHsCode": "8450200000"
+      },
+      {
+        "productName": "디지털 사이니지",
+        "hsCode": "8528.51.9000",
+        "normalizedHsCode": "8528519000"
+      },
+      {
+        "productName": "메모리반도체(DRAM)",
+        "hsCode": "8542.32-1010",
+        "normalizedHsCode": "8542321010"
+      },
+      {
+        "productName": "스마트 워치",
+        "hsCode": "8517.62-6090",
+        "normalizedHsCode": "8517626090"
+      },
+      {
+        "productName": "스마트폰",
+        "hsCode": "8517130000",
+        "normalizedHsCode": "8517130000"
+      },
+      {
+        "productName": "액정(LCD)TV",
+        "hsCode": "8528725000(oled)",
+        "normalizedHsCode": "8528725000"
+      },
+      {
+        "productName": "컬러모니터",
+        "hsCode": "8528.51-1000",
+        "normalizedHsCode": "8528511000"
+      },
+      {
+        "productName": "태블릿 피시",
+        "hsCode": "8471.30-0000",
+        "normalizedHsCode": "8471300000"
+      },
+      {
+        "productName": "플래쉬메모리",
+        "hsCode": "8542.32-1030",
+        "normalizedHsCode": "8542321030"
+      },
+      {
+        "productName": "디램(DRAM)",
+        "hsCode": "854232",
+        "normalizedHsCode": "854232"
+      },
+      {
+        "productName": "디램 모듈",
+        "hsCode": "847330",
+        "normalizedHsCode": "847330"
+      },
+      {
+        "productName": "플래시 메모리(NAND)",
+        "hsCode": "854232",
+        "normalizedHsCode": "854232"
+      },
+      {
+        "productName": "SSD",
+        "hsCode": "847170",
+        "normalizedHsCode": "847170"
+      },
+      {
+        "productName": "MCOs(eMMC/UFS/SiP)",
+        "hsCode": "854239",
+        "normalizedHsCode": "854239"
+      }
+    ]
+  },
+  {
+    "companyName": "SK하이닉스",
+    "items": [
+      {
+        "productName": "메모리반도체(DRAM)",
+        "hsCode": "8542.32-1010",
+        "normalizedHsCode": "8542321010"
+      },
+      {
+        "productName": "플래쉬메모리",
+        "hsCode": "8542.32-1030",
+        "normalizedHsCode": "8542321030"
+      },
+      {
+        "productName": "디램(DRAM)",
+        "hsCode": "854232",
+        "normalizedHsCode": "854232"
+      },
+      {
+        "productName": "디램 모듈",
+        "hsCode": "847330",
+        "normalizedHsCode": "847330"
+      },
+      {
+        "productName": "플래시 메모리(NAND)",
+        "hsCode": "854232",
+        "normalizedHsCode": "854232"
+      },
+      {
+        "productName": "SSD",
+        "hsCode": "847170",
+        "normalizedHsCode": "847170"
+      },
+      {
+        "productName": "MCP(HBM 포함)",
+        "hsCode": "854239",
+        "normalizedHsCode": "854239"
+      }
+    ]
+  },
+  {
+    "companyName": "삼성전기",
+    "items": [
+      {
+        "productName": "CSP",
+        "hsCode": "8534.00-9000",
+        "normalizedHsCode": "8534009000"
+      },
+      {
+        "productName": "HHP용Build-Up기판",
+        "hsCode": "8534.00-9000",
+        "normalizedHsCode": "8534009000"
+      },
+      {
+        "productName": "적층세라믹콘덴서",
+        "hsCode": "8532.24-0000",
+        "normalizedHsCode": "8532240000"
+      },
+      {
+        "productName": "MLCC",
+        "hsCode": "853224",
+        "normalizedHsCode": "853224"
+      }
+    ]
+  },
+  {
+    "companyName": "삼성SDI(주)",
+    "items": [
+      {
+        "productName": "리튬전지(2차전지)",
+        "hsCode": "8507602000",
+        "normalizedHsCode": "8507602000"
+      }
+    ]
+  },
+  {
+    "companyName": "LG에너지솔루션",
+    "items": [
+      {
+        "productName": "리튬전지(2차전지)",
+        "hsCode": "8507602000",
+        "normalizedHsCode": "8507602000"
+      }
+    ]
+  },
+  {
+    "companyName": "고영",
+    "items": [
+      {
+        "productName": "3차원납도포검사기",
+        "hsCode": "9031.49-9000",
+        "normalizedHsCode": "9031499000"
+      },
+      {
+        "productName": "3차원부품실장검사기",
+        "hsCode": "9031499000",
+        "normalizedHsCode": "9031499000"
+      },
+      {
+        "productName": "3D 검사장비",
+        "hsCode": "903180",
+        "normalizedHsCode": "903180"
+      }
+    ]
+  },
+  {
+    "companyName": "네패스",
+    "items": [
+      {
+        "productName": "웨이퍼레벨패키지",
+        "hsCode": "8542311000",
+        "normalizedHsCode": "8542311000"
+      }
+    ]
+  },
+  {
+    "companyName": "에스에프에이",
+    "items": [
+      {
+        "productName": "LCD원판클린스토커",
+        "hsCode": "8479.89-9099",
+        "normalizedHsCode": "8479899099"
+      },
+      {
+        "productName": "LCD크린스토커",
+        "hsCode": "8428.90-0000",
+        "normalizedHsCode": "8428900000"
+      }
+    ]
+  },
+  {
+    "companyName": "넥스틴",
+    "items": [
+      {
+        "productName": "반도체 웨이퍼 패턴결함 검사장비",
+        "hsCode": "9031419000",
+        "normalizedHsCode": "9031419000"
+      },
+      {
+        "productName": "웨이퍼 패턴결함 검사장비",
+        "hsCode": "903180",
+        "normalizedHsCode": "903180"
+      }
+    ]
+  },
+  {
+    "companyName": "에스앤에스텍",
+    "items": [
+      {
+        "productName": "블랭크마스크",
+        "hsCode": "3701.99-1000",
+        "normalizedHsCode": "3701991000"
+      },
+      {
+        "productName": "블랭크마스크(디스플레이/반도체)",
+        "hsCode": "370130",
+        "normalizedHsCode": "370130"
+      }
+    ]
+  },
+  {
+    "companyName": "리노공업",
+    "items": [
+      {
+        "productName": "리노핀",
+        "hsCode": "853690(부산)",
+        "normalizedHsCode": "853690"
+      }
+    ]
+  },
+  {
+    "companyName": "ISC",
+    "items": [
+      {
+        "productName": "실리콘 러버 소켓",
+        "hsCode": "8536.90-9090",
+        "normalizedHsCode": "8536909090"
+      }
+    ]
+  },
+  {
+    "companyName": "제우스",
+    "items": [
+      {
+        "productName": "FPD용플레이트형열처리장치",
+        "hsCode": "8486.30-9090",
+        "normalizedHsCode": "8486309090"
+      }
+    ]
+  },
+  {
+    "companyName": "티에스이",
+    "items": [
+      {
+        "productName": "테스트 인터페이스 보드",
+        "hsCode": "9030.90-1000",
+        "normalizedHsCode": "9030901000"
+      }
+    ]
+  },
+  {
+    "companyName": "인텍플러스",
+    "items": [
+      {
+        "productName": "반도체 외관 검사장비",
+        "hsCode": "9031-41.9000",
+        "normalizedHsCode": "9031419000"
+      }
+    ]
+  },
+  {
+    "companyName": "에스피지",
+    "items": [
+      {
+        "productName": "모터",
+        "hsCode": "8501(4단위로 조회할것)\n8501102000, 8501401000, 850151000",
+        "normalizedHsCode": "8501485011020008501401000850151000"
+      }
+    ]
+  },
+  {
+    "companyName": "해성디에스",
+    "items": [
+      {
+        "productName": "리드프레임",
+        "hsCode": "8542900000",
+        "normalizedHsCode": "8542900000"
+      },
+      {
+        "productName": "리드프레임·패키지기판",
+        "hsCode": "854290",
+        "normalizedHsCode": "854290"
+      }
+    ]
+  },
+  {
+    "companyName": "탑엔지니어링",
+    "items": [
+      {
+        "productName": "LCD액정주입장치",
+        "hsCode": "8486306010",
+        "normalizedHsCode": "8486306010"
+      },
+      {
+        "productName": "다이아몬드휠방식기판절단장비",
+        "hsCode": "8486.30-6020",
+        "normalizedHsCode": "8486306020"
+      }
+    ]
+  },
+  {
+    "companyName": "참엔지니어링",
+    "items": [
+      {
+        "productName": "Laser를이용한LCD검사장비",
+        "hsCode": "486.30-5051",
+        "normalizedHsCode": "486305051"
+      }
+    ]
+  },
+  {
+    "companyName": "피엔티",
+    "items": [
+      {
+        "productName": "2차전지제조기기(코터,프레스/슬리터)",
+        "hsCode": "8479899050 / 8479899010 / 8479899099",
+        "normalizedHsCode": "847989905084798990108479899099"
+      }
+    ]
+  },
+  {
+    "companyName": "한미반도체",
+    "items": [
+      {
+        "productName": "반도체제조용트림/폼/싱귤레이션시스템",
+        "hsCode": "8486.40-2091",
+        "normalizedHsCode": "8486402091"
+      },
+      {
+        "productName": "쏘잉앤플레이스먼트시스템",
+        "hsCode": "8486.40-2099",
+        "normalizedHsCode": "8486402099"
+      }
+    ]
+  },
+  {
+    "companyName": "한양이엔지",
+    "items": [
+      {
+        "productName": "화학약품중앙공급시스템",
+        "hsCode": "8479.89-9000",
+        "normalizedHsCode": "8479899000"
+      }
+    ]
+  },
+  {
+    "companyName": "파트론",
+    "items": [
+      {
+        "productName": "모바일 장비용 카메라 모듈",
+        "hsCode": "9006910000",
+        "normalizedHsCode": "9006910000"
+      }
+    ]
+  },
+  {
+    "companyName": "파크시스템스",
+    "items": [
+      {
+        "productName": "산업용자동화원자현미경",
+        "hsCode": "9012.10-1090",
+        "normalizedHsCode": "9012101090"
+      }
+    ]
+  },
+  {
+    "companyName": "피에스케이",
+    "items": [
+      {
+        "productName": "감광액제거기",
+        "hsCode": "8486.20-8420",
+        "normalizedHsCode": "8486208420"
+      },
+      {
+        "productName": "뉴하드마스크 스트립",
+        "hsCode": "8486.20-8420",
+        "normalizedHsCode": "8486208420"
+      }
+    ]
+  },
+  {
+    "companyName": "동진쎄미켐",
+    "items": [
+      {
+        "productName": "포토레지스트",
+        "hsCode": "3707901010",
+        "normalizedHsCode": "3707901010"
+      }
+    ]
+  },
+  {
+    "companyName": "아모텍",
+    "items": [
+      {
+        "productName": "칩바리스터",
+        "hsCode": "8533.40-3000",
+        "normalizedHsCode": "8533403000"
+      }
+    ]
+  },
+  {
+    "companyName": "아바코",
+    "items": [
+      {
+        "productName": "FPD제조용스퍼터",
+        "hsCode": "8486.30-5051",
+        "normalizedHsCode": "8486305051"
+      }
+    ]
+  },
+  {
+    "companyName": "한솔케미칼",
+    "items": [
+      {
+        "productName": "프리커서",
+        "hsCode": "2931909090",
+        "normalizedHsCode": "2931909090"
+      },
+      {
+        "productName": "음극바인더",
+        "hsCode": "4002110000",
+        "normalizedHsCode": "4002110000"
+      },
+      {
+        "productName": "OLED",
+        "hsCode": "8524923000",
+        "normalizedHsCode": "8524923000"
+      },
+      {
+        "productName": "NB라텍스",
+        "hsCode": "4002510000",
+        "normalizedHsCode": "4002510000"
+      },
+      {
+        "productName": "과산화수소(반도체용)",
+        "hsCode": "284700",
+        "normalizedHsCode": "284700"
+      }
+    ]
+  },
+  {
+    "companyName": "이오테크닉스",
+    "items": [
+      {
+        "productName": "레이저마커",
+        "hsCode": "8456.11-9000",
+        "normalizedHsCode": "8456119000"
+      }
+    ]
+  },
+  {
+    "companyName": "테스",
+    "items": [
+      {
+        "productName": "비정질탄소박막프라즈마화학증착장비",
+        "hsCode": "8486.20-4000",
+        "normalizedHsCode": "8486204000"
+      },
+      {
+        "productName": "산화막건식세정장비",
+        "hsCode": "8486.20-8410",
+        "normalizedHsCode": "8486208410"
+      }
+    ]
+  },
+  {
+    "companyName": "원익 QNC",
+    "items": [
+      {
+        "productName": "쿼츠웨어",
+        "hsCode": "수입 7020001013",
+        "normalizedHsCode": "7020001013"
+      }
+    ]
+  },
+  {
+    "companyName": "이녹스첨단소재",
+    "items": [
+      {
+        "productName": "OLED 봉지재 필름",
+        "hsCode": "722599-9000",
+        "normalizedHsCode": "7225999000"
+      }
+    ]
+  },
+  {
+    "companyName": "이엔에프테크놀로지",
+    "items": [
+      {
+        "productName": "BOE(BufferedOxideEtcher)",
+        "hsCode": "3824909090",
+        "normalizedHsCode": "3824909090"
+      },
+      {
+        "productName": "과산화수소수계식각액",
+        "hsCode": "3824909090",
+        "normalizedHsCode": "3824909090"
+      }
+    ]
+  },
+  {
+    "companyName": "덴티스",
+    "items": [
+      {
+        "productName": "수술용무영등",
+        "hsCode": "9018.90-9080",
+        "normalizedHsCode": "9018909080"
+      },
+      {
+        "productName": "치과용 광경화성 3D 프린터",
+        "hsCode": "8477591000 / 8443321090",
+        "normalizedHsCode": "84775910008443321090"
+      }
+    ]
+  },
+  {
+    "companyName": "이수페타시스",
+    "items": [
+      {
+        "productName": "고다층인쇄회로기판",
+        "hsCode": "8534009000+대구달성",
+        "normalizedHsCode": "8534009000"
+      },
+      {
+        "productName": "인쇄회로기판(PCB)",
+        "hsCode": "853400",
+        "normalizedHsCode": "853400"
+      }
+    ]
+  },
+  {
+    "companyName": "대덕전자",
+    "items": [
+      {
+        "productName": "카메라 모듈용 Rigid Flex PCB",
+        "hsCode": "8534.00-9000",
+        "normalizedHsCode": "8534009000"
+      },
+      {
+        "productName": "패키지 서브스트레이트",
+        "hsCode": "854290",
+        "normalizedHsCode": "854290"
+      }
+    ]
+  },
+  {
+    "companyName": "심텍",
+    "items": [
+      {
+        "productName": "BOC기판",
+        "hsCode": "8534.00-9000",
+        "normalizedHsCode": "8534009000"
+      },
+      {
+        "productName": "메모리모듈용기판",
+        "hsCode": "8534.00-9000",
+        "normalizedHsCode": "8534009000"
+      },
+      {
+        "productName": "패턴 매립형 기판(ETS)",
+        "hsCode": "8534002000",
+        "normalizedHsCode": "8534002000"
+      }
+    ]
+  },
+  {
+    "companyName": "제이브이엠",
+    "items": [
+      {
+        "productName": "전자동정제분류포장시스템",
+        "hsCode": "8479.89-9099",
+        "normalizedHsCode": "8479899099"
+      }
+    ]
+  },
+  {
+    "companyName": "락앤락",
+    "items": [
+      {
+        "productName": "플라스틱밀폐용기",
+        "hsCode": "3924.10.0000",
+        "normalizedHsCode": "3924100000"
+      }
+    ]
+  },
+  {
+    "companyName": "레이언스",
+    "items": [
+      {
+        "productName": "디지털X선영상검출기",
+        "hsCode": "9022.90.9000",
+        "normalizedHsCode": "9022909000"
+      },
+      {
+        "productName": "디지털구강내엑스선영상획득장치",
+        "hsCode": "9022.90.9000",
+        "normalizedHsCode": "9022909000"
+      },
+      {
+        "productName": "산업용 엑스선 영상 검출기",
+        "hsCode": "9022.90.9000",
+        "normalizedHsCode": "9022909000"
+      },
+      {
+        "productName": "자동검사(AXI)용CMOSX-ray영상센서",
+        "hsCode": "9022901090",
+        "normalizedHsCode": "9022901090"
+      },
+      {
+        "productName": "휘어지는구강내디지털엑스선영상센서",
+        "hsCode": "9022.90-9000",
+        "normalizedHsCode": "9022909000"
+      }
+    ]
+  },
+  {
+    "companyName": "오스템임플란트",
+    "items": [
+      {
+        "productName": "치과용임플란트시스템",
+        "hsCode": "9021.29-0000",
+        "normalizedHsCode": "9021290000"
+      }
+    ]
+  },
+  {
+    "companyName": "디오",
+    "items": [
+      {
+        "productName": "치과용임플란트시스템",
+        "hsCode": "9021.29-0000",
+        "normalizedHsCode": "9021290000"
+      }
+    ]
+  },
+  {
+    "companyName": "덴티움",
+    "items": [
+      {
+        "productName": "치과용임플란트시스템",
+        "hsCode": "9021.29-0000",
+        "normalizedHsCode": "9021290000"
+      }
+    ]
+  },
+  {
+    "companyName": "바텍",
+    "items": [
+      {
+        "productName": "전산화단층X선촬영장치(치과진단용디지털파노라마장치)",
+        "hsCode": "9022.13-0000",
+        "normalizedHsCode": "9022130000"
+      },
+      {
+        "productName": "치과진단용 구강내 엑스선 촬영장치",
+        "hsCode": "9022.13-0000",
+        "normalizedHsCode": "9022130000"
+      }
+    ]
+  },
+  {
+    "companyName": "뷰웍스",
+    "items": [
+      {
+        "productName": "산업용 하이브리드 라인스캔 카메라",
+        "hsCode": "8525.80-1090",
+        "normalizedHsCode": "8525801090"
+      },
+      {
+        "productName": "의료영상획득장치",
+        "hsCode": "9022.90-1090",
+        "normalizedHsCode": "9022901090"
+      }
+    ]
+  },
+  {
+    "companyName": "에스엠",
+    "items": [
+      {
+        "productName": "음반",
+        "hsCode": "8523491040",
+        "normalizedHsCode": "8523491040"
+      }
+    ]
+  },
+  {
+    "companyName": "JYP Ent.",
+    "items": [
+      {
+        "productName": "음반",
+        "hsCode": "8523491040",
+        "normalizedHsCode": "8523491040"
+      }
+    ]
+  },
+  {
+    "companyName": "와이지엔터",
+    "items": [
+      {
+        "productName": "음반",
+        "hsCode": "8523491040",
+        "normalizedHsCode": "8523491040"
+      }
+    ]
+  },
+  {
+    "companyName": "제이시스메디칼",
+    "items": [
+      {
+        "productName": "에스테틱의료기기",
+        "hsCode": "9018908110/9018909000",
+        "normalizedHsCode": "90189081109018909000"
+      }
+    ]
+  },
+  {
+    "companyName": "루트로닉",
+    "items": [
+      {
+        "productName": "에스테틱의료기기",
+        "hsCode": "9018908110/9018909000",
+        "normalizedHsCode": "90189081109018909000"
+      }
+    ]
+  },
+  {
+    "companyName": "클래시스",
+    "items": [
+      {
+        "productName": "에스테틱의료기기",
+        "hsCode": "9018908110/9018909000",
+        "normalizedHsCode": "90189081109018909000"
+      },
+      {
+        "productName": "피부미용 의료기기",
+        "hsCode": "901890",
+        "normalizedHsCode": "901890"
+      }
+    ]
+  },
+  {
+    "companyName": "하이로닉",
+    "items": [
+      {
+        "productName": "에스테틱의료기기",
+        "hsCode": "9018908110/9018909000",
+        "normalizedHsCode": "90189081109018909000"
+      }
+    ]
+  },
+  {
+    "companyName": "인터로조",
+    "items": [
+      {
+        "productName": "콘텐트렌즈",
+        "hsCode": "9001300000",
+        "normalizedHsCode": "9001300000"
+      }
+    ]
+  },
+  {
+    "companyName": "이엠텍",
+    "items": [
+      {
+        "productName": "전자담배",
+        "hsCode": "8543409000(수입) 21년까지 85437040(수입)",
+        "normalizedHsCode": "85434090002185437040"
+      }
+    ]
+  },
+  {
+    "companyName": "메디톡스",
+    "items": [
+      {
+        "productName": "보툴리눔독소A형",
+        "hsCode": "(HS Code: 기존 3002.90.3090 / 신규 3002.49.1000, 3002.90.9000)",
+        "normalizedHsCode": "300290309030024910003002909000"
+      }
+    ]
+  },
+  {
+    "companyName": "휴젤",
+    "items": [
+      {
+        "productName": "조직수복용 생체재료(필러)",
+        "hsCode": "3304.99-9000",
+        "normalizedHsCode": "3304999000"
+      }
+    ]
+  },
+  {
+    "companyName": "대동, TYM",
+    "items": [
+      {
+        "productName": "농기계",
+        "hsCode": "8701",
+        "normalizedHsCode": "8701"
+      }
+    ]
+  },
+  {
+    "companyName": "에스티팜",
+    "items": [
+      {
+        "productName": "올리고뉴클레오타이드",
+        "hsCode": "(HS Code: 2934.99) 2934999000",
+        "normalizedHsCode": "2934992934999000"
+      }
+    ]
+  },
+  {
+    "companyName": "휴비츠",
+    "items": [
+      {
+        "productName": "안광학기기",
+        "hsCode": "9018501010/9018501090",
+        "normalizedHsCode": "90185010109018501090"
+      }
+    ]
+  },
+  {
+    "companyName": "티앤엘",
+    "items": [
+      {
+        "productName": "2차치유하이드로겔창상피복재",
+        "hsCode": "3005904000",
+        "normalizedHsCode": "3005904000"
+      }
+    ]
+  },
+  {
+    "companyName": "백산",
+    "items": [
+      {
+        "productName": "폴리우레탄합성피혁",
+        "hsCode": "5603.94",
+        "normalizedHsCode": "560394"
+      }
+    ]
+  },
+  {
+    "companyName": "비츠로셀",
+    "items": [
+      {
+        "productName": "리튬일차전지",
+        "hsCode": "8506500000",
+        "normalizedHsCode": "8506500000"
+      },
+      {
+        "productName": "리튬 1차전지",
+        "hsCode": "850650",
+        "normalizedHsCode": "850650"
+      }
+    ]
+  },
+  {
+    "companyName": "셀트리온",
+    "items": [
+      {
+        "productName": "완제의약품(바이오의약품)",
+        "hsCode": "3002150000",
+        "normalizedHsCode": "3002150000"
+      }
+    ]
+  },
+  {
+    "companyName": "한국타이어테크놀로지",
+    "items": [
+      {
+        "productName": "타이어",
+        "hsCode": "4011.10/20/90",
+        "normalizedHsCode": "4011102090"
+      }
+    ]
+  },
+  {
+    "companyName": "인바디",
+    "items": [
+      {
+        "productName": "체성분분석기",
+        "hsCode": "9018.19-8000",
+        "normalizedHsCode": "9018198000"
+      }
+    ]
+  },
+  {
+    "companyName": "아이디스",
+    "items": [
+      {
+        "productName": "네트워크 비디오 레코더",
+        "hsCode": "8521.90-1000",
+        "normalizedHsCode": "8521901000"
+      },
+      {
+        "productName": "돔형 아이피 보안 카메라",
+        "hsCode": "8525.80-1020",
+        "normalizedHsCode": "8525801020"
+      }
+    ]
+  },
+  {
+    "companyName": "씨에스윈드",
+    "items": [
+      {
+        "productName": "풍력발전기타워",
+        "hsCode": "7308.40-0000",
+        "normalizedHsCode": "7308400000"
+      }
+    ]
+  },
+  {
+    "companyName": "OCI",
+    "items": [
+      {
+        "productName": "폴리실리콘",
+        "hsCode": "2804611090",
+        "normalizedHsCode": "2804611090"
+      }
+    ]
+  },
+  {
+    "companyName": "엘앤에프/에코프로비엠",
+    "items": [
+      {
+        "productName": "리튬이온이차전지용양극활물질",
+        "hsCode": "2841909040,30,20",
+        "normalizedHsCode": "28419090403020"
+      },
+      {
+        "productName": "이차전지제조용 인조흑연",
+        "hsCode": "3801.10-1000",
+        "normalizedHsCode": "3801101000"
+      },
+      {
+        "productName": "이차전지 전해액",
+        "hsCode": "3824999051",
+        "normalizedHsCode": "3824999051"
+      },
+      {
+        "productName": "전해액첨가제",
+        "hsCode": "3824999052",
+        "normalizedHsCode": "3824999052"
+      },
+      {
+        "productName": "격리막",
+        "hsCode": "3921191010",
+        "normalizedHsCode": "3921191010"
+      },
+      {
+        "productName": "NCM전구체",
+        "hsCode": "2825909000",
+        "normalizedHsCode": "2825909000"
+      }
+    ]
+  },
+  {
+    "companyName": "후성",
+    "items": [
+      {
+        "productName": "육불화인산리튬",
+        "hsCode": "2825909000",
+        "normalizedHsCode": "2825909000"
+      }
+    ]
+  },
+  {
+    "companyName": "jw생명과학",
+    "items": [
+      {
+        "productName": "3챔버영양수액",
+        "hsCode": "3004909900",
+        "normalizedHsCode": "3004909900"
+      }
+    ]
+  },
+  {
+    "companyName": "일진머티리얼즈, SKC",
+    "items": [
+      {
+        "productName": "동박",
+        "hsCode": "7410.11.0000",
+        "normalizedHsCode": "7410110000"
+      }
+    ]
+  },
+  {
+    "companyName": "PI첨단소재",
+    "items": [
+      {
+        "productName": "폴리이미드필름",
+        "hsCode": "3920999010, 3920999090",
+        "normalizedHsCode": "39209990103920999090"
+      }
+    ]
+  },
+  {
+    "companyName": "오로스테크놀로지",
+    "items": [
+      {
+        "productName": "반도체오버레이계측기",
+        "hsCode": "9031.80-9091",
+        "normalizedHsCode": "9031809091"
+      },
+      {
+        "productName": "오버레이 계측기",
+        "hsCode": "903180",
+        "normalizedHsCode": "903180"
+      }
+    ]
+  },
+  {
+    "companyName": "와이지-원",
+    "items": [
+      {
+        "productName": "드릴",
+        "hsCode": "8207.50-1010",
+        "normalizedHsCode": "8207501010"
+      },
+      {
+        "productName": "엔드밀",
+        "hsCode": "8207.70-2000",
+        "normalizedHsCode": "8207702000"
+      },
+      {
+        "productName": "탭",
+        "hsCode": "8207.40-1000",
+        "normalizedHsCode": "8207401000"
+      }
+    ]
+  },
+  {
+    "companyName": "우진플라임",
+    "items": [
+      {
+        "productName": "플라스틱사출성형기",
+        "hsCode": "8477.10-2000",
+        "normalizedHsCode": "8477102000"
+      }
+    ]
+  },
+  {
+    "companyName": "웰크론",
+    "items": [
+      {
+        "productName": "극세사클리너",
+        "hsCode": "6302.93 / 6307.10",
+        "normalizedHsCode": "630293630710"
+      }
+    ]
+  },
+  {
+    "companyName": "유진로봇",
+    "items": [
+      {
+        "productName": "청소로봇",
+        "hsCode": "8508.19-1000",
+        "normalizedHsCode": "8508191000"
+      }
+    ]
+  },
+  {
+    "companyName": "이노와이어리스",
+    "items": [
+      {
+        "productName": "CDMA망최적화장비",
+        "hsCode": "9030.40-9000/9030400000",
+        "normalizedHsCode": "90304090009030400000"
+      }
+    ]
+  },
+  {
+    "companyName": "동성화인텍",
+    "items": [
+      {
+        "productName": "초저온보냉PU",
+        "hsCode": "3909.50-0000",
+        "normalizedHsCode": "3909500000"
+      }
+    ]
+  },
+  {
+    "companyName": "코텍, 토비스",
+    "items": [
+      {
+        "productName": "산업용모니터(카지노용)",
+        "hsCode": "8528.59 + 인천연수구",
+        "normalizedHsCode": "852859"
+      }
+    ]
+  },
+  {
+    "companyName": "파세코",
+    "items": [
+      {
+        "productName": "심지식석유난로",
+        "hsCode": "7321.82-0000",
+        "normalizedHsCode": "7321820000"
+      },
+      {
+        "productName": "열풍기",
+        "hsCode": "7322.90-9010",
+        "normalizedHsCode": "7322909010"
+      }
+    ]
+  },
+  {
+    "companyName": "인텔리안테크",
+    "items": [
+      {
+        "productName": "이동체용위성방송수신안테나",
+        "hsCode": "8529903010",
+        "normalizedHsCode": "8529903010"
+      },
+      {
+        "productName": "이동체용위성통신송수신안테나시스템",
+        "hsCode": "8517794000",
+        "normalizedHsCode": "8517794000"
+      }
+    ]
+  },
+  {
+    "companyName": "경동나비엔",
+    "items": [
+      {
+        "productName": "온수기, 가스보일러",
+        "hsCode": "8419110000, 8403103000",
+        "normalizedHsCode": "84191100008403103000"
+      }
+    ]
+  },
+  {
+    "companyName": "농심",
+    "items": [
+      {
+        "productName": "라면",
+        "hsCode": "1902.30-1010",
+        "normalizedHsCode": "1902301010"
+      }
+    ]
+  },
+  {
+    "companyName": "삼양식품",
+    "items": [
+      {
+        "productName": "라면",
+        "hsCode": "1902.30-1010",
+        "normalizedHsCode": "1902301010"
+      }
+    ]
+  },
+  {
+    "companyName": "CJ제일제당",
+    "items": [
+      {
+        "productName": "감미료 알룰로스",
+        "hsCode": "2940001090",
+        "normalizedHsCode": "2940001090"
+      },
+      {
+        "productName": "고기양념장",
+        "hsCode": "2103.90-9090",
+        "normalizedHsCode": "2103909090"
+      },
+      {
+        "productName": "고추장",
+        "hsCode": "2103.90-1030",
+        "normalizedHsCode": "2103901030"
+      },
+      {
+        "productName": "들기름",
+        "hsCode": "1515901000",
+        "normalizedHsCode": "1515901000"
+      },
+      {
+        "productName": "라이신",
+        "hsCode": "2922.41-1000 / 2922.41-3000",
+        "normalizedHsCode": "29224110002922413000"
+      },
+      {
+        "productName": "바이오매스 유래\n생분해성\n바이오플라스틱\n(폴리하이드록시알카노에이트)",
+        "hsCode": "3913.90-9090",
+        "normalizedHsCode": "3913909090"
+      },
+      {
+        "productName": "분말조미료",
+        "hsCode": "2103.90-9030",
+        "normalizedHsCode": "2103909030"
+      },
+      {
+        "productName": "쓰레오닌",
+        "hsCode": "2922.50-9090",
+        "normalizedHsCode": "2922509090"
+      },
+      {
+        "productName": "즉석밥",
+        "hsCode": "1904900000",
+        "normalizedHsCode": "1904900000"
+      },
+      {
+        "productName": "참기름",
+        "hsCode": "1515.50-0000",
+        "normalizedHsCode": "1515500000"
+      },
+      {
+        "productName": "트립토판",
+        "hsCode": "2933.99-0000",
+        "normalizedHsCode": "2933990000"
+      },
+      {
+        "productName": "핵산",
+        "hsCode": "2934.99-2000",
+        "normalizedHsCode": "2934992000"
+      }
+    ]
+  },
+  {
+    "companyName": "오뚜기",
+    "items": [
+      {
+        "productName": "들기름",
+        "hsCode": "1515.90-1000",
+        "normalizedHsCode": "1515901000"
+      },
+      {
+        "productName": "유자차",
+        "hsCode": "2008.30-1000",
+        "normalizedHsCode": "2008301000"
+      },
+      {
+        "productName": "참기름",
+        "hsCode": "1515.50-0000",
+        "normalizedHsCode": "1515500000"
+      }
+    ]
+  },
+  {
+    "companyName": "대상",
+    "items": [
+      {
+        "productName": "고기양념장",
+        "hsCode": "2103.90-9090",
+        "normalizedHsCode": "2103909090"
+      },
+      {
+        "productName": "고추장",
+        "hsCode": "2103.90-1030",
+        "normalizedHsCode": "2103901030"
+      },
+      {
+        "productName": "글루타민산나트륨(발효조미료)",
+        "hsCode": "2922.42-2000",
+        "normalizedHsCode": "2922422000"
+      },
+      {
+        "productName": "김치",
+        "hsCode": "2005.99-1000",
+        "normalizedHsCode": "2005991000"
+      }
+    ]
+  },
+  {
+    "companyName": "하이트진로",
+    "items": [
+      {
+        "productName": "소주",
+        "hsCode": "2208.90-4000",
+        "normalizedHsCode": "2208904000"
+      }
+    ]
+  },
+  {
+    "companyName": "피피아이",
+    "items": [
+      {
+        "productName": "광섬유 센서기반 계측관리 시스템",
+        "hsCode": "9027.80-2090",
+        "normalizedHsCode": "9027802090"
+      },
+      {
+        "productName": "저밀도/고밀도파장분할다중화광파장파워분석기",
+        "hsCode": "9027.80-2090",
+        "normalizedHsCode": "9027802090"
+      }
+    ]
+  },
+  {
+    "companyName": "대창단조",
+    "items": [
+      {
+        "productName": "언더캐리지용트랙링크어셈블리",
+        "hsCode": "8431.49",
+        "normalizedHsCode": "843149"
+      }
+    ]
+  },
+  {
+    "companyName": "대한광통신",
+    "items": [
+      {
+        "productName": "광섬유복합가공지선",
+        "hsCode": "8544.70-0000",
+        "normalizedHsCode": "8544700000"
+      },
+      {
+        "productName": "광섬유 케이블",
+        "hsCode": "854470",
+        "normalizedHsCode": "854470"
+      }
+    ]
+  },
+  {
+    "companyName": "덕산네오룩스",
+    "items": [
+      {
+        "productName": "OLED 유기재료",
+        "hsCode": "3204901010",
+        "normalizedHsCode": "3204901010"
+      }
+    ]
+  },
+  {
+    "companyName": "덕산하이메탈",
+    "items": [
+      {
+        "productName": "무연솔더볼",
+        "hsCode": "7106.10-0000",
+        "normalizedHsCode": "7106100000"
+      },
+      {
+        "productName": "솔더볼(마이크로)",
+        "hsCode": "831130",
+        "normalizedHsCode": "831130"
+      }
+    ]
+  },
+  {
+    "companyName": "디와이파워",
+    "items": [
+      {
+        "productName": "건설기계용유압실린더",
+        "hsCode": "8412.21-1000",
+        "normalizedHsCode": "8412211000"
+      }
+    ]
+  },
+  {
+    "companyName": "에스에너지",
+    "items": [
+      {
+        "productName": "태양광모듈",
+        "hsCode": "8541430000(경기성남시)",
+        "normalizedHsCode": "8541430000"
+      }
+    ]
+  },
+  {
+    "companyName": "현대에너지솔루션",
+    "items": [
+      {
+        "productName": "태양광모듈",
+        "hsCode": "8541430000",
+        "normalizedHsCode": "8541430000"
+      }
+    ]
+  },
+  {
+    "companyName": "알서포트",
+    "items": [
+      {
+        "productName": "원격지원솔루션(서비스)",
+        "hsCode": "852329",
+        "normalizedHsCode": "852329"
+      }
+    ]
+  },
+  {
+    "companyName": "RF머트리얼즈",
+    "items": [
+      {
+        "productName": "화합물 반도체용 패키지",
+        "hsCode": "8517793000",
+        "normalizedHsCode": "8517793000"
+      }
+    ]
+  },
+  {
+    "companyName": "오로라",
+    "items": [
+      {
+        "productName": "캐릭터완구",
+        "hsCode": "9503.00-2100",
+        "normalizedHsCode": "9503002100"
+      }
+    ]
+  },
+  {
+    "companyName": "원텍",
+    "items": [
+      {
+        "productName": "엔디야그레이저수술기",
+        "hsCode": "9018908010",
+        "normalizedHsCode": "9018908010"
+      },
+      {
+        "productName": "피부과용 의료기기",
+        "hsCode": "901890",
+        "normalizedHsCode": "901890"
+      }
+    ]
+  },
+  {
+    "companyName": "일진다이아",
+    "items": [
+      {
+        "productName": "공업용다이아몬드",
+        "hsCode": "7105.10-2000",
+        "normalizedHsCode": "7105102000"
+      }
+    ]
+  },
+  {
+    "companyName": "일진머티리얼즈",
+    "items": [
+      {
+        "productName": "PCB용전해동박",
+        "hsCode": "7410.21-1000",
+        "normalizedHsCode": "7410211000"
+      },
+      {
+        "productName": "이차전지음극집전체용일렉포일",
+        "hsCode": "7410.11-1000",
+        "normalizedHsCode": "7410111000"
+      }
+    ]
+  },
+  {
+    "companyName": "LG생활건강",
+    "items": [
+      {
+        "productName": "염함유치약",
+        "hsCode": "3306.10-0000",
+        "normalizedHsCode": "3306100000"
+      }
+    ]
+  },
+  {
+    "companyName": "연우",
+    "items": [
+      {
+        "productName": "화장품용 드로퍼 튜브",
+        "hsCode": "3923.90-0000",
+        "normalizedHsCode": "3923900000"
+      },
+      {
+        "productName": "화장품용 진공 펌프",
+        "hsCode": "3923.30-0000",
+        "normalizedHsCode": "3923300000"
+      }
+    ]
+  },
+  {
+    "companyName": "코스맥스",
+    "items": [
+      {
+        "productName": "O/W지속내수성자외선차단화장품",
+        "hsCode": "3304991000",
+        "normalizedHsCode": "3304991000"
+      },
+      {
+        "productName": "적외선차단화장품",
+        "hsCode": "3304.99.1000",
+        "normalizedHsCode": "3304991000"
+      },
+      {
+        "productName": "피부흡수촉진세라마이드에멀젼",
+        "hsCode": "3304991000",
+        "normalizedHsCode": "3304991000"
+      }
+    ]
+  },
+  {
+    "companyName": "아모레퍼시픽",
+    "items": [
+      {
+        "productName": "Cell-trap기술을이용한새로운스펀지멀티쿠션제형의파운데이션",
+        "hsCode": "3304.99-2000",
+        "normalizedHsCode": "3304992000"
+      },
+      {
+        "productName": "립스틱",
+        "hsCode": "3304.10.1000",
+        "normalizedHsCode": "3304101000"
+      },
+      {
+        "productName": "마스크,팩",
+        "hsCode": "3304.99.1000",
+        "normalizedHsCode": "3304991000"
+      },
+      {
+        "productName": "안티에이징(미백)화장품",
+        "hsCode": "3304991000",
+        "normalizedHsCode": "3304991000"
+      },
+      {
+        "productName": "자외선차단제",
+        "hsCode": "3304.99-9000",
+        "normalizedHsCode": "3304999000"
+      }
+    ]
+  },
+  {
+    "companyName": "세아제강",
+    "items": [
+      {
+        "productName": "EPWP110유정용강관",
+        "hsCode": "7306.29.1000",
+        "normalizedHsCode": "7306291000"
+      },
+      {
+        "productName": "ERWJ55튜빙용강관",
+        "hsCode": "7306.29.2000",
+        "normalizedHsCode": "7306292000"
+      },
+      {
+        "productName": "ERWK55유정용강관",
+        "hsCode": "7305.20.2000",
+        "normalizedHsCode": "7305202000"
+      },
+      {
+        "productName": "ERWL80케이싱용강관",
+        "hsCode": "7306.29.1000",
+        "normalizedHsCode": "7306291000"
+      },
+      {
+        "productName": "ERW산업용보일러관",
+        "hsCode": "7306.30-2090",
+        "normalizedHsCode": "7306302090"
+      },
+      {
+        "productName": "ERW재료관",
+        "hsCode": "7306302090",
+        "normalizedHsCode": "7306302090"
+      },
+      {
+        "productName": "대형구경강관",
+        "hsCode": "7305.11/12/19/31/39",
+        "normalizedHsCode": "73051112193139"
+      }
+    ]
+  },
+  {
+    "companyName": "현대건설기계",
+    "items": [
+      {
+        "productName": "굴삭기",
+        "hsCode": "8429.52",
+        "normalizedHsCode": "842952"
+      },
+      {
+        "productName": "지게차",
+        "hsCode": "8427.20-1020",
+        "normalizedHsCode": "8427201020"
+      },
+      {
+        "productName": "휠로더",
+        "hsCode": "8429.51-101",
+        "normalizedHsCode": "842951101"
+      }
+    ]
+  },
+  {
+    "companyName": "현대두산인프라코어",
+    "items": [
+      {
+        "productName": "굴삭기",
+        "hsCode": "8429.52",
+        "normalizedHsCode": "842952"
+      }
+    ]
+  },
+  {
+    "companyName": "LG화학",
+    "items": [
+      {
+        "productName": "ASA수지",
+        "hsCode": "3903.20-0000",
+        "normalizedHsCode": "3903200000"
+      },
+      {
+        "productName": "CPE용BasepowderHDPE",
+        "hsCode": "3901.20-0000",
+        "normalizedHsCode": "3901200000"
+      },
+      {
+        "productName": "고밀도폴리에틸렌",
+        "hsCode": "3901.20.0000",
+        "normalizedHsCode": "3901200000"
+      },
+      {
+        "productName": "고흡수성수지",
+        "hsCode": "3906.90-9000",
+        "normalizedHsCode": "3906909000"
+      },
+      {
+        "productName": "난방관용내열성폴리에틸렌",
+        "hsCode": "3901.10-1000",
+        "normalizedHsCode": "3901101000"
+      },
+      {
+        "productName": "난연ABS",
+        "hsCode": "3903.30-0000",
+        "normalizedHsCode": "3903300000"
+      },
+      {
+        "productName": "내열ABS수지",
+        "hsCode": "3903.30-0000",
+        "normalizedHsCode": "3903300000"
+      },
+      {
+        "productName": "네오펜틸글리콜",
+        "hsCode": "2905.39-2000",
+        "normalizedHsCode": "2905392000"
+      },
+      {
+        "productName": "메탈로센계에틸렌/알파-올레핀엘라스토머",
+        "hsCode": "3901.40-0000",
+        "normalizedHsCode": "3901400000"
+      },
+      {
+        "productName": "엔비라텍스",
+        "hsCode": "4002-51-0000",
+        "normalizedHsCode": "4002510000"
+      },
+      {
+        "productName": "열가소성폴리에스터계엘라스토머",
+        "hsCode": "3907.99-1000",
+        "normalizedHsCode": "3907991000"
+      },
+      {
+        "productName": "의료용저밀도폴리에틸렌",
+        "hsCode": "3901.10-9000",
+        "normalizedHsCode": "3901109000"
+      },
+      {
+        "productName": "전력케이블절연용컴파운드",
+        "hsCode": "3901.10-9000",
+        "normalizedHsCode": "3901109000"
+      },
+      {
+        "productName": "조직수복용 생체재료(필러)",
+        "hsCode": "3304.99-9000",
+        "normalizedHsCode": "3304999000"
+      },
+      {
+        "productName": "투명ABS",
+        "hsCode": "3903.30-0000",
+        "normalizedHsCode": "3903300000"
+      },
+      {
+        "productName": "헤드램프베젤용PBT",
+        "hsCode": "3907.99-1000",
+        "normalizedHsCode": "3907991000"
+      },
+      {
+        "productName": "휴대폰하우징용컴파운드",
+        "hsCode": "3907.40-0000",
+        "normalizedHsCode": "3907400000"
+      }
+    ]
+  },
+  {
+    "companyName": "금양",
+    "items": [
+      {
+        "productName": "발포제",
+        "hsCode": "3824997400",
+        "normalizedHsCode": "3824997400"
+      }
+    ]
+  },
+  {
+    "companyName": "기가레인",
+    "items": [
+      {
+        "productName": "엘이디피에스에스식각장비",
+        "hsCode": "8486.30-3043",
+        "normalizedHsCode": "8486303043"
+      },
+      {
+        "productName": "휴대폰용RF동축케이블조립체",
+        "hsCode": "8544.20-0000",
+        "normalizedHsCode": "8544200000"
+      }
+    ]
+  },
+  {
+    "companyName": "나노신소재",
+    "items": [
+      {
+        "productName": "원통형 스퍼터링 타겟",
+        "hsCode": "6909.19-0000",
+        "normalizedHsCode": "6909190000"
+      },
+      {
+        "productName": "인쇄전자용 은나노 잉크",
+        "hsCode": "3215.90-5000",
+        "normalizedHsCode": "3215905000"
+      }
+    ]
+  },
+  {
+    "companyName": "나노엔텍",
+    "items": [
+      {
+        "productName": "잔존백혈구수자동계수시스템",
+        "hsCode": "9027.50-9000",
+        "normalizedHsCode": "9027509000"
+      }
+    ]
+  },
+  {
+    "companyName": "네오셈",
+    "items": [
+      {
+        "productName": "에스에스디검사장비",
+        "hsCode": "9030.82.0000",
+        "normalizedHsCode": "9030820000"
+      }
+    ]
+  },
+  {
+    "companyName": "네오크레마",
+    "items": [
+      {
+        "productName": "효모가수분해물",
+        "hsCode": "2106.90-9040",
+        "normalizedHsCode": "2106909040"
+      }
+    ]
+  },
+  {
+    "companyName": "네오티스",
+    "items": [
+      {
+        "productName": "마이크로라우터",
+        "hsCode": "8207.70-9000",
+        "normalizedHsCode": "8207709000"
+      },
+      {
+        "productName": "연성회로기판가공용마이크로드릴",
+        "hsCode": "8207.70.9000",
+        "normalizedHsCode": "8207709000"
+      },
+      {
+        "productName": "자동차용모터웜기어샤프트",
+        "hsCode": "848310-9090",
+        "normalizedHsCode": "8483109090"
+      }
+    ]
+  },
+  {
+    "companyName": "테오플럼",
+    "items": [
+      {
+        "productName": "세라믹쿡웨어",
+        "hsCode": "7615.10-9020",
+        "normalizedHsCode": "7615109020"
+      }
+    ]
+  },
+  {
+    "companyName": "녹십자",
+    "items": [
+      {
+        "productName": "계절형독감백신",
+        "hsCode": "3002.20-0000",
+        "normalizedHsCode": "3002200000"
+      },
+      {
+        "productName": "헌터증후군치료제",
+        "hsCode": "3001.90-9090",
+        "normalizedHsCode": "3001909090"
+      }
+    ]
+  },
+  {
+    "companyName": "대륙제관",
+    "items": [
+      {
+        "productName": "원격플라즈마세정기",
+        "hsCode": "2807.00-1010",
+        "normalizedHsCode": "2807001010"
+      },
+      {
+        "productName": "휴대용부탄가스",
+        "hsCode": "2711.13-0000",
+        "normalizedHsCode": "2711130000"
+      }
+    ]
+  },
+  {
+    "companyName": "대웅제약",
+    "items": [
+      {
+        "productName": "우루소데옥시콜린산",
+        "hsCode": "3004.90-9900",
+        "normalizedHsCode": "3004909900"
+      },
+      {
+        "productName": "보톨리늄톡신",
+        "hsCode": "HS코드 3002.49.1000, 3002.90.9000 합산",
+        "normalizedHsCode": "30024910003002909000"
+      }
+    ]
+  },
+  {
+    "companyName": "대한과학",
+    "items": [
+      {
+        "productName": "가열자력교반기",
+        "hsCode": "8479.82-4000",
+        "normalizedHsCode": "8479824000"
+      },
+      {
+        "productName": "고압멸균기",
+        "hsCode": "8419.20-0000",
+        "normalizedHsCode": "8419200000"
+      }
+    ]
+  },
+  {
+    "companyName": "디알젬",
+    "items": [
+      {
+        "productName": "이동형엑스선촬영장치",
+        "hsCode": "9022.14-1090",
+        "normalizedHsCode": "9022141090"
+      },
+      {
+        "productName": "제너레이터",
+        "hsCode": "9022.90-1030",
+        "normalizedHsCode": "9022901030"
+      }
+    ]
+  },
+  {
+    "companyName": "디엠에스",
+    "items": [
+      {
+        "productName": "TFT-LCD용고집적세정장비",
+        "hsCode": "8486.30-1000",
+        "normalizedHsCode": "8486301000"
+      }
+    ]
+  },
+  {
+    "companyName": "라파스",
+    "items": [
+      {
+        "productName": "히일루론산 마이크로니들 패치",
+        "hsCode": "3304.99-1000",
+        "normalizedHsCode": "3304991000"
+      }
+    ]
+  },
+  {
+    "companyName": "(주)랩지노믹스",
+    "items": [
+      {
+        "productName": "코로나-19 진단키트",
+        "hsCode": "3822.00-1020",
+        "normalizedHsCode": "3822001020"
+      }
+    ]
+  },
+  {
+    "companyName": "로보티즈",
+    "items": [
+      {
+        "productName": "로봇스마트액추에이터",
+        "hsCode": "8467.29-0000",
+        "normalizedHsCode": "8467290000"
+      },
+      {
+        "productName": "인간크기 휴머노이드로봇 플랫폼",
+        "hsCode": "8479.90-9090",
+        "normalizedHsCode": "8479909090"
+      }
+    ]
+  },
+  {
+    "companyName": "(주)리메드",
+    "items": [
+      {
+        "productName": "비수술적뇌자극치료기",
+        "hsCode": "9018.90-9080",
+        "normalizedHsCode": "9018909080"
+      }
+    ]
+  },
+  {
+    "companyName": "(주)마크로젠",
+    "items": [
+      {
+        "productName": "유전자 및 유전체 분석 서비스",
+        "hsCode": "2934-99-2000",
+        "normalizedHsCode": "2934992000"
+      }
+    ]
+  },
+  {
+    "companyName": "메디아나",
+    "items": [
+      {
+        "productName": "산소포화도측정기",
+        "hsCode": "9018.19-8000",
+        "normalizedHsCode": "9018198000"
+      },
+      {
+        "productName": "수동 심장충격기",
+        "hsCode": "9018.19-8000",
+        "normalizedHsCode": "9018198000"
+      }
+    ]
+  },
+  {
+    "companyName": "메타바이오메드",
+    "items": [
+      {
+        "productName": "착탈식무선근관충전기",
+        "hsCode": "9018.49-8000 / 9018.49-9000",
+        "normalizedHsCode": "90184980009018499000"
+      },
+      {
+        "productName": "치과용근관충전재",
+        "hsCode": "3006.40-2000",
+        "normalizedHsCode": "3006402000"
+      },
+      {
+        "productName": "유전자증폭장비",
+        "hsCode": "9027.80-2090",
+        "normalizedHsCode": "9027802090"
+      }
+    ]
+  },
+  {
+    "companyName": "바이오니아",
+    "items": [
+      {
+        "productName": "대용량 자동화 핵산추출 장비",
+        "hsCode": "8479.89-9099",
+        "normalizedHsCode": "8479899099"
+      }
+    ]
+  },
+  {
+    "companyName": "바이오로그디바이스",
+    "items": [
+      {
+        "productName": "정전용량방식의 지문인식센서",
+        "hsCode": "9031.90-9000",
+        "normalizedHsCode": "9031909000"
+      }
+    ]
+  },
+  {
+    "companyName": "바이오리더스",
+    "items": [
+      {
+        "productName": "고분자량폴리감마글루탐산",
+        "hsCode": "3304991000",
+        "normalizedHsCode": "3304991000"
+      }
+    ]
+  },
+  {
+    "companyName": "비덴트",
+    "items": [
+      {
+        "productName": "방송용모니터",
+        "hsCode": "8528.59-1090",
+        "normalizedHsCode": "8528591090"
+      }
+    ]
+  },
+  {
+    "companyName": "비피도",
+    "items": [
+      {
+        "productName": "식용 프로바이오틱스",
+        "hsCode": "2106.90-9099",
+        "normalizedHsCode": "2106909099"
+      }
+    ]
+  },
+  {
+    "companyName": "삼양홀딩스",
+    "items": [
+      {
+        "productName": "생체흡수성수술용합성봉합사원사",
+        "hsCode": "5607500000",
+        "normalizedHsCode": "5607500000"
+      }
+    ]
+  },
+  {
+    "companyName": "삼진엘앤디",
+    "items": [
+      {
+        "productName": "무선 메쉬 네트워크 기반 조명장치",
+        "hsCode": "9405.99-9000",
+        "normalizedHsCode": "9405999000"
+      }
+    ]
+  },
+  {
+    "companyName": "상아프론테크",
+    "items": [
+      {
+        "productName": "몰드 릴리즈 필름",
+        "hsCode": "3917.21-0000",
+        "normalizedHsCode": "3917210000"
+      },
+      {
+        "productName": "엘씨디카세트",
+        "hsCode": "3923210000, 3917210000, 8431390000",
+        "normalizedHsCode": "392321000039172100008431390000"
+      },
+      {
+        "productName": "칼라레이저용 전사벨트",
+        "hsCode": "8443.99-9000",
+        "normalizedHsCode": "8443999000"
+      },
+      {
+        "productName": "프린터 부품용 A3 정착벨트",
+        "hsCode": "8443.99-9000",
+        "normalizedHsCode": "8443999000"
+      },
+      {
+        "productName": "프린터 부품용 정착벨트",
+        "hsCode": "8443.99-9000",
+        "normalizedHsCode": "8443999000"
+      }
+    ]
+  },
+  {
+    "companyName": "샘씨엔에스",
+    "items": [
+      {
+        "productName": "프로브카드용다층세라믹기판",
+        "hsCode": "8534009000",
+        "normalizedHsCode": "8534009000"
+      }
+    ]
+  },
+  {
+    "companyName": "서원",
+    "items": [
+      {
+        "productName": "청동 잉곳",
+        "hsCode": "7403.22-0000",
+        "normalizedHsCode": "7403220000"
+      },
+      {
+        "productName": "황동 잉곳",
+        "hsCode": "7403.21-0000",
+        "normalizedHsCode": "7403210000"
+      }
+    ]
+  },
+  {
+    "companyName": "성도엠씨",
+    "items": [
+      {
+        "productName": "전동식정형용운동장치",
+        "hsCode": "9019101000",
+        "normalizedHsCode": "9019101000"
+      }
+    ]
+  },
+  {
+    "companyName": "성안",
+    "items": [
+      {
+        "productName": "중동전통남성복용합섬직물",
+        "hsCode": "5407/5512/5515",
+        "normalizedHsCode": "540755125515"
+      }
+    ]
+  },
+  {
+    "companyName": "세라젬",
+    "items": [
+      {
+        "productName": "개인용온열기",
+        "hsCode": "9018.90-9080",
+        "normalizedHsCode": "9018909080"
+      }
+    ]
+  },
+  {
+    "companyName": "세종메디칼",
+    "items": [
+      {
+        "productName": "일회용수동식의료용개창기구",
+        "hsCode": "9018.90-9080",
+        "normalizedHsCode": "9018909080"
+      }
+    ]
+  },
+  {
+    "companyName": "센코",
+    "items": [
+      {
+        "productName": "휴대용가스감지기",
+        "hsCode": "9027.10-0000",
+        "normalizedHsCode": "9027100000"
+      }
+    ]
+  },
+  {
+    "companyName": "솔루에타",
+    "items": [
+      {
+        "productName": "전도성쿠션테이프",
+        "hsCode": "5911.10-9000",
+        "normalizedHsCode": "5911109000"
+      }
+    ]
+  },
+  {
+    "companyName": "슈프리마아이디",
+    "items": [
+      {
+        "productName": "USB기반 지문스캐너",
+        "hsCode": "8471.80-9000",
+        "normalizedHsCode": "8471809000"
+      }
+    ]
+  },
+  {
+    "companyName": "시큐브",
+    "items": [
+      {
+        "productName": "시큐어OS",
+        "hsCode": "8523.80.2210",
+        "normalizedHsCode": "8523802210"
+      }
+    ]
+  },
+  {
+    "companyName": "신성이엔지",
+    "items": [
+      {
+        "productName": "팬필터유니트",
+        "hsCode": "8414.59-9000",
+        "normalizedHsCode": "8414599000"
+      }
+    ]
+  },
+  {
+    "companyName": "쎌아비오텍",
+    "items": [
+      {
+        "productName": "식용 프로바이오틱스",
+        "hsCode": "3002.90-4000 / 2106.90-9099",
+        "normalizedHsCode": "30029040002106909099"
+      }
+    ]
+  },
+  {
+    "companyName": "씨티씨바이오",
+    "items": [
+      {
+        "productName": "만난아제",
+        "hsCode": "3507.90-9000",
+        "normalizedHsCode": "3507909000"
+      }
+    ]
+  },
+  {
+    "companyName": "아이엠",
+    "items": [
+      {
+        "productName": "디브이디광픽업",
+        "hsCode": "8548.90-0000",
+        "normalizedHsCode": "8548900000"
+      },
+      {
+        "productName": "블루레이광픽업",
+        "hsCode": "8548.90-0000",
+        "normalizedHsCode": "8548900000"
+      },
+      {
+        "productName": "전도성면상발열필름",
+        "hsCode": "8516900000",
+        "normalizedHsCode": "8516900000"
+      }
+    ]
+  },
+  {
+    "companyName": "알파홀딩스",
+    "items": [
+      {
+        "productName": "적외선리모콘수신모듈용증폭IC",
+        "hsCode": "8542311000",
+        "normalizedHsCode": "8542311000"
+      }
+    ]
+  },
+  {
+    "companyName": "앤씨앤",
+    "items": [
+      {
+        "productName": "영상감시시스템Chipset",
+        "hsCode": "8542.31-1090",
+        "normalizedHsCode": "8542311090"
+      }
+    ]
+  },
+  {
+    "companyName": "에이치엘사이언스",
+    "items": [
+      {
+        "productName": "식용 밀크씨슬추출물",
+        "hsCode": "2106-90-9099",
+        "normalizedHsCode": "2106909099"
+      }
+    ]
+  },
+  {
+    "companyName": "엔케이",
+    "items": [
+      {
+        "productName": "고압CO₂소화장치",
+        "hsCode": "8424.10-0000",
+        "normalizedHsCode": "8424100000"
+      },
+      {
+        "productName": "선박평형수처리장치",
+        "hsCode": "8424.21-9090",
+        "normalizedHsCode": "8424219090"
+      }
+    ]
+  },
+  {
+    "companyName": "LX하우시스",
+    "items": [
+      {
+        "productName": "가구용필름",
+        "hsCode": "3920620000",
+        "normalizedHsCode": "3920620000"
+      },
+      {
+        "productName": "고광택시트",
+        "hsCode": "7210.70-2000",
+        "normalizedHsCode": "7210702000"
+      },
+      {
+        "productName": "고내후성시트",
+        "hsCode": "3920.49-0000",
+        "normalizedHsCode": "3920490000"
+      },
+      {
+        "productName": "고탄성PVC스포츠바닥재",
+        "hsCode": "3918.10-1000",
+        "normalizedHsCode": "3918101000"
+      },
+      {
+        "productName": "아크릴계인조대리석",
+        "hsCode": "6810-09-9000",
+        "normalizedHsCode": "6810099000"
+      },
+      {
+        "productName": "엔지니어드 스톤",
+        "hsCode": "6810.09-9000",
+        "normalizedHsCode": "6810099000"
+      },
+      {
+        "productName": "자동차용시트커버",
+        "hsCode": "3921.12-0000(미국외),5903.10-0000(미국)",
+        "normalizedHsCode": "39211200005903100000"
+      }
+    ]
+  },
+  {
+    "companyName": "엘엠에스",
+    "items": [
+      {
+        "productName": "프리즘시트",
+        "hsCode": "9001.90-1000",
+        "normalizedHsCode": "9001901000"
+      }
+    ]
+  },
+  {
+    "companyName": "이수화학",
+    "items": [
+      {
+        "productName": "분자량 조절용 티디엠",
+        "hsCode": "2930903010",
+        "normalizedHsCode": "2930903010"
+      },
+      {
+        "productName": "연성알킬벤젠",
+        "hsCode": "3817000000",
+        "normalizedHsCode": "3817000000"
+      }
+    ]
+  },
+  {
+    "companyName": "인트로메딕",
+    "items": [
+      {
+        "productName": "캡슐내시경",
+        "hsCode": "9018.90-9030",
+        "normalizedHsCode": "9018909030"
+      }
+    ]
+  },
+  {
+    "companyName": "일승",
+    "items": [
+      {
+        "productName": "선박용분뇨처리장치",
+        "hsCode": "8479.89-9099",
+        "normalizedHsCode": "8479899099"
+      }
+    ]
+  },
+  {
+    "companyName": "잇츠한불",
+    "items": [
+      {
+        "productName": "달팽이점액여과물이함유된주름개선기능성크림",
+        "hsCode": "3304.99-1000",
+        "normalizedHsCode": "3304991000"
+      }
+    ]
+  },
+  {
+    "companyName": "제노레이",
+    "items": [
+      {
+        "productName": "이동형C-Arm엑스선투시촬영장치",
+        "hsCode": "9022.14-1090",
+        "normalizedHsCode": "9022141090"
+      }
+    ]
+  },
+  {
+    "companyName": "제이케이글로벌",
+    "items": [
+      {
+        "productName": "치킨프랜차이즈",
+        "hsCode": "1602.32-9000",
+        "normalizedHsCode": "1602329000"
+      }
+    ]
+  },
+  {
+    "companyName": "종근당바이오",
+    "items": [
+      {
+        "productName": "데메클로사이클린염산염",
+        "hsCode": "2941.30-9000",
+        "normalizedHsCode": "2941309000"
+      },
+      {
+        "productName": "아카보스",
+        "hsCode": "2932.99-9090",
+        "normalizedHsCode": "2932999090"
+      },
+      {
+        "productName": "포타슘클라블라네이트",
+        "hsCode": "2934.99-9090",
+        "normalizedHsCode": "2934999090"
+      }
+    ]
+  },
+  {
+    "companyName": "진성티이씨",
+    "items": [
+      {
+        "productName": "언더캐리지용트랙롤러",
+        "hsCode": "8431.49-9000",
+        "normalizedHsCode": "8431499000"
+      }
+    ]
+  },
+  {
+    "companyName": "(주)케이씨",
+    "items": [
+      {
+        "productName": "선체전기부식방지및해양자생물방지장치",
+        "hsCode": "8543.70-9090",
+        "normalizedHsCode": "8543709090"
+      }
+    ]
+  },
+  {
+    "companyName": "KCC",
+    "items": [
+      {
+        "productName": "방오도료",
+        "hsCode": "3208.90-9019",
+        "normalizedHsCode": "3208909019"
+      },
+      {
+        "productName": "선박용에폭시방청도료",
+        "hsCode": "3208.90-9019",
+        "normalizedHsCode": "3208909019"
+      },
+      {
+        "productName": "진공차단기용세라믹",
+        "hsCode": "8547.10-0000",
+        "normalizedHsCode": "8547100000"
+      }
+    ]
+  },
+  {
+    "companyName": "KCI",
+    "items": [
+      {
+        "productName": "베헤닐암모늄염",
+        "hsCode": "3402.12-0000",
+        "normalizedHsCode": "3402120000"
+      },
+      {
+        "productName": "폴리쿼터-케이씨",
+        "hsCode": "3912.90-9000 / 3912.39-9000",
+        "normalizedHsCode": "39129090003912399000"
+      }
+    ]
+  },
+  {
+    "companyName": "케이프",
+    "items": [
+      {
+        "productName": "선박대형디젤엔진용실린더라이너",
+        "hsCode": "8409.99-3030",
+        "normalizedHsCode": "8409993030"
+      }
+    ]
+  },
+  {
+    "companyName": "태광",
+    "items": [
+      {
+        "productName": "플랜트용관이음쇠류",
+        "hsCode": "7307.93.0000",
+        "normalizedHsCode": "7307930000"
+      }
+    ]
+  },
+  {
+    "companyName": "태양",
+    "items": [
+      {
+        "productName": "라이터가스",
+        "hsCode": "3606.10-0000",
+        "normalizedHsCode": "3606100000"
+      },
+      {
+        "productName": "휴대용부탄가스",
+        "hsCode": "2711.13-0000",
+        "normalizedHsCode": "2711130000"
+      }
+    ]
+  },
+  {
+    "companyName": "태웅",
+    "items": [
+      {
+        "productName": "풍력발전용로터회전축",
+        "hsCode": "8483.10-9090",
+        "normalizedHsCode": "8483109090"
+      },
+      {
+        "productName": "풍력발전용타워플랜지",
+        "hsCode": "7307.91-0000",
+        "normalizedHsCode": "7307910000"
+      }
+    ]
+  },
+  {
+    "companyName": "티맥스소프트",
+    "items": [
+      {
+        "productName": "웹서버",
+        "hsCode": "8523.49-1011",
+        "normalizedHsCode": "8523491011"
+      },
+      {
+        "productName": "웹어플리케이션서버",
+        "hsCode": "8523.49-1011",
+        "normalizedHsCode": "8523491011"
+      }
+    ]
+  },
+  {
+    "companyName": "풍산",
+    "items": [
+      {
+        "productName": "반도체LeadFrame용동합금제",
+        "hsCode": "7409.90-1000",
+        "normalizedHsCode": "7409901000"
+      },
+      {
+        "productName": "동합금소전",
+        "hsCode": "7419.99-9000",
+        "normalizedHsCode": "7419999000"
+      }
+    ]
+  },
+  {
+    "companyName": "현대미포조선",
+    "items": [
+      {
+        "productName": "LNG이중연료추진엔진적용산적화물선",
+        "hsCode": "8901901000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "LNG급유선박(자동함위유지장치장착)",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "로로 운반선",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "로로/여객선",
+        "hsCode": "8901.902",
+        "normalizedHsCode": "8901902"
+      },
+      {
+        "productName": "로로/컨테이너겸용선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "메탄올 운반선",
+        "hsCode": "8901.20.0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "방콕막스 컨테이너 운반선",
+        "hsCode": "8901.90.1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "아스팔트운반선",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "에틸렌 운반선",
+        "hsCode": "8901.20.1000",
+        "normalizedHsCode": "8901201000"
+      },
+      {
+        "productName": "자동차전용운반선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "중형LPG운반선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "중형석유제품운반선(5만DWT이하)",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "중형액화천연가스운반선",
+        "hsCode": "8901200000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "중형컨테이너운반선",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "쥬스운반선",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      }
+    ]
+  },
+  {
+    "companyName": "화승알앤에이",
+    "items": [
+      {
+        "productName": "자동차용웨더스트립",
+        "hsCode": "4016.93-0000",
+        "normalizedHsCode": "4016930000"
+      }
+    ]
+  },
+  {
+    "companyName": "휴비스",
+    "items": [
+      {
+        "productName": "메타아라미드섬유",
+        "hsCode": "5503.11.9000",
+        "normalizedHsCode": "5503119000"
+      },
+      {
+        "productName": "아세테이트조 타입 고광택 폴리에스터사",
+        "hsCode": "5402.47-9000",
+        "normalizedHsCode": "5402479000"
+      },
+      {
+        "productName": "열융착 스트립 보강 지오그리드",
+        "hsCode": "3921.19-2090",
+        "normalizedHsCode": "3921192090"
+      },
+      {
+        "productName": "위생재용올레핀계복합섬유",
+        "hsCode": "5503.40/5503.90",
+        "normalizedHsCode": "550340550390"
+      },
+      {
+        "productName": "잠재권축성스트레치원사",
+        "hsCode": "5402.46-0000/5402.47-0000",
+        "normalizedHsCode": "54024600005402470000"
+      },
+      {
+        "productName": "충진용고벌키성폴리에스터중공섬유",
+        "hsCode": "5503.20-1000",
+        "normalizedHsCode": "5503201000"
+      },
+      {
+        "productName": "폴리에스터LM화이버",
+        "hsCode": "5503.20-1000",
+        "normalizedHsCode": "5503201000"
+      },
+      {
+        "productName": "폴리에틸렌용융장섬유",
+        "hsCode": "5402499000",
+        "normalizedHsCode": "5402499000"
+      },
+      {
+        "productName": "폴리페닐렌설파이드섬유",
+        "hsCode": "5503.90-0000",
+        "normalizedHsCode": "5503900000"
+      }
+    ]
+  },
+  {
+    "companyName": "DSR",
+    "items": [
+      {
+        "productName": "산업용합성섬유로프",
+        "hsCode": "5607490000",
+        "normalizedHsCode": "5607490000"
+      }
+    ]
+  },
+  {
+    "companyName": "DSR제강",
+    "items": [
+      {
+        "productName": "파워로프",
+        "hsCode": "7312.10-2099",
+        "normalizedHsCode": "7312102099"
+      }
+    ]
+  },
+  {
+    "companyName": "LG전자",
+    "items": [
+      {
+        "productName": "액정(LCD)TV",
+        "hsCode": "8528.72-2020",
+        "normalizedHsCode": "8528722020"
+      },
+      {
+        "productName": "컬러모니터",
+        "hsCode": "8528.51-1000",
+        "normalizedHsCode": "8528511000"
+      }
+    ]
+  },
+  {
+    "companyName": "SGC솔루션",
+    "items": [
+      {
+        "productName": "유리밀폐용기",
+        "hsCode": "7013.49-0000",
+        "normalizedHsCode": "7013490000"
+      }
+    ]
+  },
+  {
+    "companyName": "STX엔진",
+    "items": [
+      {
+        "productName": "선박디젤엔진(4행정식)",
+        "hsCode": "8404.10-3000",
+        "normalizedHsCode": "8404103000"
+      }
+    ]
+  },
+  {
+    "companyName": "경원산업",
+    "items": [
+      {
+        "productName": "압전세라믹액츄에이터(센서)",
+        "hsCode": "8541.60-9000",
+        "normalizedHsCode": "8541609000"
+      }
+    ]
+  },
+  {
+    "companyName": "고려아연",
+    "items": [
+      {
+        "productName": "아연괴",
+        "hsCode": "7901.11-0000",
+        "normalizedHsCode": "7901110000"
+      }
+    ]
+  },
+  {
+    "companyName": "고려제강",
+    "items": [
+      {
+        "productName": "강선류",
+        "hsCode": "7217.30-1000",
+        "normalizedHsCode": "7217301000"
+      }
+    ]
+  },
+  {
+    "companyName": "금호미쓰이화학",
+    "items": [
+      {
+        "productName": "디페닐메탄디이소시아네이트",
+        "hsCode": "2929.10.2000",
+        "normalizedHsCode": "2929102000"
+      },
+      {
+        "productName": "폴리메틸렌폴리페닐이소시아네이트",
+        "hsCode": "3909310000",
+        "normalizedHsCode": "3909310000"
+      }
+    ]
+  },
+  {
+    "companyName": "금호석유화학",
+    "items": [
+      {
+        "productName": "로우시스부타디엔고무",
+        "hsCode": "4002.20.0000",
+        "normalizedHsCode": "4002200000"
+      },
+      {
+        "productName": "부타디엔고무",
+        "hsCode": "4002.20.0000",
+        "normalizedHsCode": "4002200000"
+      },
+      {
+        "productName": "솔루션스타이렌부타디엔고무",
+        "hsCode": "4002.19.0000",
+        "normalizedHsCode": "4002190000"
+      },
+      {
+        "productName": "스타이렌 부타이엔 스타이렌",
+        "hsCode": "4002.19.0000",
+        "normalizedHsCode": "4002190000"
+      },
+      {
+        "productName": "스타이렌-부타디엔고무",
+        "hsCode": "4002.19.0000",
+        "normalizedHsCode": "4002190000"
+      },
+      {
+        "productName": "아크릴로니트릴부타디엔고무",
+        "hsCode": "4002.59.0000",
+        "normalizedHsCode": "4002590000"
+      },
+      {
+        "productName": "에스비라텍스",
+        "hsCode": "4002.11.0000",
+        "normalizedHsCode": "4002110000"
+      },
+      {
+        "productName": "엔비라텍스",
+        "hsCode": "4002.51-0000",
+        "normalizedHsCode": "4002510000"
+      },
+      {
+        "productName": "울트라하이시스폴리부타디엔고무",
+        "hsCode": "4002200000",
+        "normalizedHsCode": "4002200000"
+      },
+      {
+        "productName": "인더스트리얼아크릴로니트릴부타디엔라텍스",
+        "hsCode": "4002.51.0000",
+        "normalizedHsCode": "4002510000"
+      },
+      {
+        "productName": "쿠마녹스13",
+        "hsCode": "2921.51.9090",
+        "normalizedHsCode": "2921519090"
+      },
+      {
+        "productName": "쿠마녹스5010L",
+        "hsCode": "3812.30.1000",
+        "normalizedHsCode": "3812301000"
+      },
+      {
+        "productName": "페놀계첨가제",
+        "hsCode": "3812.30.1000",
+        "normalizedHsCode": "3812301000"
+      }
+    ]
+  },
+  {
+    "companyName": "금호폴리켐",
+    "items": [
+      {
+        "productName": "EP(D)M고무",
+        "hsCode": "4002.70-9000",
+        "normalizedHsCode": "4002709000"
+      }
+    ]
+  },
+  {
+    "companyName": "금호피앤비화학",
+    "items": [
+      {
+        "productName": "비스페놀에이",
+        "hsCode": "2907.23-1000",
+        "normalizedHsCode": "2907231000"
+      },
+      {
+        "productName": "아세톤",
+        "hsCode": "2914.11-0000",
+        "normalizedHsCode": "2914110000"
+      },
+      {
+        "productName": "엠아이비케이",
+        "hsCode": "2914.13-0000",
+        "normalizedHsCode": "2914130000"
+      },
+      {
+        "productName": "페놀",
+        "hsCode": "2907.11-1000",
+        "normalizedHsCode": "2907111000"
+      }
+    ]
+  },
+  {
+    "companyName": "대양전기공업",
+    "items": [
+      {
+        "productName": "선박용형광등기구",
+        "hsCode": "9405499000",
+        "normalizedHsCode": "9405499000"
+      },
+      {
+        "productName": "헬리데크LEDCIRCLE-H",
+        "hsCode": "9405499000",
+        "normalizedHsCode": "9405499000"
+      }
+    ]
+  },
+  {
+    "companyName": "대우조선해양",
+    "items": [
+      {
+        "productName": "1400톤급 수출형 잠수함",
+        "hsCode": "8906.10-0000",
+        "normalizedHsCode": "8906100000"
+      },
+      {
+        "productName": "LNG운반선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "LPG운반선",
+        "hsCode": "8901-90",
+        "normalizedHsCode": "890190"
+      },
+      {
+        "productName": "고정식원유생산플랫폼",
+        "hsCode": "7308.90-9000",
+        "normalizedHsCode": "7308909000"
+      },
+      {
+        "productName": "극지용 쇄빙 LNG선",
+        "hsCode": "8901-20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "극초대형컨테이너선",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "대형석유제품운반선",
+        "hsCode": "8901.02-1000",
+        "normalizedHsCode": "8901021000"
+      },
+      {
+        "productName": "드릴쉽",
+        "hsCode": "8905.90-7000",
+        "normalizedHsCode": "8905907000"
+      },
+      {
+        "productName": "반잠수식 시추선",
+        "hsCode": "8905-90-7000",
+        "normalizedHsCode": "8905907000"
+      },
+      {
+        "productName": "부유식액화천연가스저장재기화설비",
+        "hsCode": "8905.90-9000",
+        "normalizedHsCode": "8905909000"
+      },
+      {
+        "productName": "부유식해양석유가스생산저장및하역설비(FPSO)",
+        "hsCode": "8905.90-9000",
+        "normalizedHsCode": "8905909000"
+      },
+      {
+        "productName": "부유식해양액화천연가스생산,저장및하역설비(LNG-FPSO)",
+        "hsCode": "8905.90-9000",
+        "normalizedHsCode": "8905909000"
+      },
+      {
+        "productName": "원유운반선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "초대형컨테이너선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      }
+    ]
+  },
+  {
+    "companyName": "대한유화",
+    "items": [
+      {
+        "productName": "강판코팅용폴리올레핀계접착용수지",
+        "hsCode": "3901.20.9000",
+        "normalizedHsCode": "3901209000"
+      },
+      {
+        "productName": "건식리튬이온배터리분리막용폴리프로필렌",
+        "hsCode": "3902.10-0000",
+        "normalizedHsCode": "3902100000"
+      },
+      {
+        "productName": "냉온수관용PP계초고압파이프수지",
+        "hsCode": "3902.30.9000",
+        "normalizedHsCode": "3902309000"
+      },
+      {
+        "productName": "습식 리튬이온 배터리 분리막용 폴리에틸렌",
+        "hsCode": "3901-20-9000",
+        "normalizedHsCode": "3901209000"
+      },
+      {
+        "productName": "초고분자량폴리에틸렌",
+        "hsCode": "3901-10-9000",
+        "normalizedHsCode": "3901109000"
+      },
+      {
+        "productName": "콘덴서용PP계고순도필름수지",
+        "hsCode": "3902.10-0000",
+        "normalizedHsCode": "3902100000"
+      }
+    ]
+  },
+  {
+    "companyName": "동국제강",
+    "items": [
+      {
+        "productName": "가전칼라강판",
+        "hsCode": "7210.70-0000",
+        "normalizedHsCode": "7210700000"
+      },
+      {
+        "productName": "건재칼라강판",
+        "hsCode": "7210700000",
+        "normalizedHsCode": "7210700000"
+      }
+    ]
+  },
+  {
+    "companyName": "동국제약",
+    "items": [
+      {
+        "productName": "슈퍼항생제",
+        "hsCode": "2941.90.9099",
+        "normalizedHsCode": "2941909099"
+      },
+      {
+        "productName": "포폴주사제",
+        "hsCode": "3004.90.9900",
+        "normalizedHsCode": "3004909900"
+      }
+    ]
+  },
+  {
+    "companyName": "동원산업",
+    "items": [
+      {
+        "productName": "냉동다랑어",
+        "hsCode": "0303.41/0303.42/0303.43/0303.44",
+        "normalizedHsCode": "030341030342030343030344"
+      }
+    ]
+  },
+  {
+    "companyName": "동원시스템즈",
+    "items": [
+      {
+        "productName": "기능성 연포장재",
+        "hsCode": "3923290000",
+        "normalizedHsCode": "3923290000"
+      }
+    ]
+  },
+  {
+    "companyName": "두산공작기계",
+    "items": [
+      {
+        "productName": "초고속머시닝센터",
+        "hsCode": "8457.10-10/8457.10-20",
+        "normalizedHsCode": "8457101084571020"
+      }
+    ]
+  },
+  {
+    "companyName": "두산에너빌리티",
+    "items": [
+      {
+        "productName": "5.5MW중대형해상풍력터빈",
+        "hsCode": "8502.31.4000",
+        "normalizedHsCode": "8502314000"
+      },
+      {
+        "productName": "금형강",
+        "hsCode": "7214.10-0000",
+        "normalizedHsCode": "7214100000"
+      },
+      {
+        "productName": "냉간압연용워크롤",
+        "hsCode": "8455.30-9000",
+        "normalizedHsCode": "8455309000"
+      },
+      {
+        "productName": "대형엔진용크랭크샤프트",
+        "hsCode": "7325-99-20-00",
+        "normalizedHsCode": "7325992000"
+      },
+      {
+        "productName": "상업용원자력발전소원자로용기",
+        "hsCode": "8401.10-0000",
+        "normalizedHsCode": "8401100000"
+      },
+      {
+        "productName": "상업용원자력발전소증기발생기",
+        "hsCode": "8402-11.0000",
+        "normalizedHsCode": "8402110000"
+      },
+      {
+        "productName": "선미주강품",
+        "hsCode": "7325.99-2000",
+        "normalizedHsCode": "7325992000"
+      },
+      {
+        "productName": "수력발전수차주강품",
+        "hsCode": "8410.90-9010",
+        "normalizedHsCode": "8410909010"
+      },
+      {
+        "productName": "원자력여자시스템",
+        "hsCode": "8504.40-1090",
+        "normalizedHsCode": "8504401090"
+      },
+      {
+        "productName": "원전해체 폐기물 종합처리시스템",
+        "hsCode": "8459-69-9000",
+        "normalizedHsCode": "8459699000"
+      },
+      {
+        "productName": "일체형경판",
+        "hsCode": "8402.90-1000",
+        "normalizedHsCode": "8402901000"
+      },
+      {
+        "productName": "터빈발전기용로터샤프트",
+        "hsCode": "8503.00-2000",
+        "normalizedHsCode": "8503002000"
+      },
+      {
+        "productName": "해수담수설비",
+        "hsCode": "8419.89-9030",
+        "normalizedHsCode": "8419899030"
+      },
+      {
+        "productName": "화력저압터빈용로터샤프트",
+        "hsCode": "8455.30-9000",
+        "normalizedHsCode": "8455309000"
+      }
+    ]
+  },
+  {
+    "companyName": "디씨엠",
+    "items": [
+      {
+        "productName": "가전용PET/PVC적층강판",
+        "hsCode": "7210.70-2000 / 7212.40-2000",
+        "normalizedHsCode": "72107020007212402000"
+      }
+    ]
+  },
+  {
+    "companyName": "디에스티",
+    "items": [
+      {
+        "productName": "핀머신",
+        "hsCode": "846229 등",
+        "normalizedHsCode": "846229"
+      }
+    ]
+  },
+  {
+    "companyName": "디티알",
+    "items": [
+      {
+        "productName": "기어커팅호브",
+        "hsCode": "8207.70-3000",
+        "normalizedHsCode": "8207703000"
+      }
+    ]
+  },
+  {
+    "companyName": "롯데케미칼",
+    "items": [
+      {
+        "productName": "ASA수지",
+        "hsCode": "3903.20-0000",
+        "normalizedHsCode": "3903200000"
+      },
+      {
+        "productName": "CPE용BasepowderHDPE",
+        "hsCode": "3901.20-0000",
+        "normalizedHsCode": "3901200000"
+      },
+      {
+        "productName": "pc계 감수제용 폴리에틸렌글리콜류",
+        "hsCode": "3404.20.0000",
+        "normalizedHsCode": "3404200000"
+      },
+      {
+        "productName": "TV하우징용PCalloy수지",
+        "hsCode": "3907.40-0000",
+        "normalizedHsCode": "3907400000"
+      },
+      {
+        "productName": "금속접합용 PBT소재",
+        "hsCode": "3907.99-1000",
+        "normalizedHsCode": "3907991000"
+      },
+      {
+        "productName": "난연ABS",
+        "hsCode": "3903.30-0000",
+        "normalizedHsCode": "3903300000"
+      },
+      {
+        "productName": "냉장고내상용압출ABS수지",
+        "hsCode": "3903.30-0000",
+        "normalizedHsCode": "3903300000"
+      },
+      {
+        "productName": "아크릴계인조대리석",
+        "hsCode": "3920.51.0000",
+        "normalizedHsCode": "3920510000"
+      },
+      {
+        "productName": "엔지니어드 스톤",
+        "hsCode": "6810.99-9000",
+        "normalizedHsCode": "6810999000"
+      },
+      {
+        "productName": "의료포장용 PP제품",
+        "hsCode": "3902.10.0000\n3902.30.0000",
+        "normalizedHsCode": "39021000003902300000"
+      },
+      {
+        "productName": "이소프탈산",
+        "hsCode": "2917.39-1000",
+        "normalizedHsCode": "2917391000"
+      },
+      {
+        "productName": "자동차용 도금 ABS",
+        "hsCode": "3903.30.0000",
+        "normalizedHsCode": "3903300000"
+      },
+      {
+        "productName": "투명ABS",
+        "hsCode": "3903.30-0000",
+        "normalizedHsCode": "3903300000"
+      },
+      {
+        "productName": "폴리프로필렌열접착수지",
+        "hsCode": "390230",
+        "normalizedHsCode": "390230"
+      },
+      {
+        "productName": "휴대폰하우징용컴파운드",
+        "hsCode": "3907.40-0000",
+        "normalizedHsCode": "3907400000"
+      }
+    ]
+  },
+  {
+    "companyName": "무진전자",
+    "items": [
+      {
+        "productName": "매엽식 싱글 웨이퍼 클리닝 장비",
+        "hsCode": "8486.20-7000",
+        "normalizedHsCode": "8486207000"
+      }
+    ]
+  },
+  {
+    "companyName": "바디텍메드",
+    "items": [
+      {
+        "productName": "감염증진단용C-반응단백질형광면역진단기기",
+        "hsCode": "3002.12-1000",
+        "normalizedHsCode": "3002121000"
+      }
+    ]
+  },
+  {
+    "companyName": "삼성디스플레이",
+    "items": [
+      {
+        "productName": "TFT-LCD",
+        "hsCode": "9013.80-1030/8471.60-2023/8473.30-9000",
+        "normalizedHsCode": "901380103084716020238473309000"
+      },
+      {
+        "productName": "능동형유기발광다이오드",
+        "hsCode": "853180/853190/8537.10-9000/8529.90-9649",
+        "normalizedHsCode": "85318085319085371090008529909649"
+      }
+    ]
+  },
+  {
+    "companyName": "삼성중공업",
+    "items": [
+      {
+        "productName": "LNG운반선",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "고정식원유생산플랫폼",
+        "hsCode": "7308.90-9000",
+        "normalizedHsCode": "7308909000"
+      },
+      {
+        "productName": "극초대형컨테이너선",
+        "hsCode": "8901901000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "드릴쉽",
+        "hsCode": "8905.90-7000",
+        "normalizedHsCode": "8905907000"
+      },
+      {
+        "productName": "반잠수식 시추선",
+        "hsCode": "8905.20-1000",
+        "normalizedHsCode": "8905201000"
+      },
+      {
+        "productName": "부유식액화천연가스저장재기화설비",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "부유식해양석유가스생산저장및하역설비(FPSO)",
+        "hsCode": "8905.90-9000",
+        "normalizedHsCode": "8905909000"
+      },
+      {
+        "productName": "부유식해양액화천연가스생산,저장및하역설비(LNG-FPSO)",
+        "hsCode": "8905.90-9000",
+        "normalizedHsCode": "8905909000"
+      },
+      {
+        "productName": "셔틀탱커",
+        "hsCode": "8901 20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "원유운반선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "초대형에탄운반선(VLEC)",
+        "hsCode": "8901 90-1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "초대형컨테이너선",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      }
+    ]
+  },
+  {
+    "companyName": "삼영기계",
+    "items": [
+      {
+        "productName": "선박용중속디젤엔진실린더헤드",
+        "hsCode": "8409.99",
+        "normalizedHsCode": "840999"
+      },
+      {
+        "productName": "선박용중속디젤엔진피스톤",
+        "hsCode": "8409.99",
+        "normalizedHsCode": "840999"
+      }
+    ]
+  },
+  {
+    "companyName": "삼영엠텍",
+    "items": [
+      {
+        "productName": "선박중대형디젤엔진용메인베어링서포트",
+        "hsCode": "8409.99-3030",
+        "normalizedHsCode": "8409993030"
+      }
+    ]
+  },
+  {
+    "companyName": "샘표식품",
+    "items": [
+      {
+        "productName": "콩발효 맛내기",
+        "hsCode": "2103.90.9030",
+        "normalizedHsCode": "2103909030"
+      },
+      {
+        "productName": "흑초",
+        "hsCode": "2106901090",
+        "normalizedHsCode": "2106901090"
+      }
+    ]
+  },
+  {
+    "companyName": "서경브레이징",
+    "items": [
+      {
+        "productName": "자동 브레이징 기계",
+        "hsCode": "8468.20.9000",
+        "normalizedHsCode": "8468209000"
+      }
+    ]
+  },
+  {
+    "companyName": "선창산업",
+    "items": [
+      {
+        "productName": "중밀도섬유판",
+        "hsCode": "4411.12.1000 / 4411.14.1000",
+        "normalizedHsCode": "44111210004411141000"
+      }
+    ]
+  },
+  {
+    "companyName": "신화인터텍(주)",
+    "items": [
+      {
+        "productName": "다층복합시트",
+        "hsCode": "9001.90.9000",
+        "normalizedHsCode": "9001909000"
+      }
+    ]
+  },
+  {
+    "companyName": "에스엔시스(주)",
+    "items": [
+      {
+        "productName": "선박평형수처리장치",
+        "hsCode": "8421.21-9090",
+        "normalizedHsCode": "8421219090"
+      }
+    ]
+  },
+  {
+    "companyName": "에스엘",
+    "items": [
+      {
+        "productName": "오토모티브라이팅",
+        "hsCode": "8512201010",
+        "normalizedHsCode": "8512201010"
+      }
+    ]
+  },
+  {
+    "companyName": "에이치엘비",
+    "items": [
+      {
+        "productName": "구명정",
+        "hsCode": "8906900000",
+        "normalizedHsCode": "8906900000"
+      }
+    ]
+  },
+  {
+    "companyName": "에이치케이이노엔",
+    "items": [
+      {
+        "productName": "숙취해소음료",
+        "hsCode": "2202.90-9000",
+        "normalizedHsCode": "2202909000"
+      }
+    ]
+  },
+  {
+    "companyName": "엘베스트지에이티(주)",
+    "items": [
+      {
+        "productName": "콘크리트용PCE고성능강수제",
+        "hsCode": "3907.20-1000",
+        "normalizedHsCode": "3907201000"
+      }
+    ]
+  },
+  {
+    "companyName": "엘에스일렉트릭",
+    "items": [
+      {
+        "productName": "직류용배선차단기",
+        "hsCode": "8536.20.0000",
+        "normalizedHsCode": "8536200000"
+      },
+      {
+        "productName": "친환경자동차용직류고전압릴레이",
+        "hsCode": "853649",
+        "normalizedHsCode": "853649"
+      }
+    ]
+  },
+  {
+    "companyName": "엘에스전선(주)",
+    "items": [
+      {
+        "productName": "선박용전선",
+        "hsCode": "8544.49-9090",
+        "normalizedHsCode": "8544499090"
+      }
+    ]
+  },
+  {
+    "companyName": "엘지디스플레이",
+    "items": [
+      {
+        "productName": "TFT-LCD",
+        "hsCode": "836110",
+        "normalizedHsCode": "836110"
+      },
+      {
+        "productName": "WRGB OLED Panel",
+        "hsCode": "8529909643",
+        "normalizedHsCode": "8529909643"
+      }
+    ]
+  },
+  {
+    "companyName": "옵티시스(주)",
+    "items": [
+      {
+        "productName": "광디지털미디어전송모듈",
+        "hsCode": "8517.70-3032",
+        "normalizedHsCode": "8517703032"
+      }
+    ]
+  },
+  {
+    "companyName": "와이아이케이(주)",
+    "items": [
+      {
+        "productName": "메모리웨이퍼테스터",
+        "hsCode": "9030.82-0000",
+        "normalizedHsCode": "9030820000"
+      }
+    ]
+  },
+  {
+    "companyName": "와이엠티(주)",
+    "items": [
+      {
+        "productName": "고연성무전해니켈-금도금액",
+        "hsCode": "3824.99.7100",
+        "normalizedHsCode": "3824997100"
+      }
+    ]
+  },
+  {
+    "companyName": "위니아대우(주)",
+    "items": [
+      {
+        "productName": "벽걸이미니세탁기",
+        "hsCode": "8450.11-0000",
+        "normalizedHsCode": "8450110000"
+      }
+    ]
+  },
+  {
+    "companyName": "유니온머티리얼(주)",
+    "items": [
+      {
+        "productName": "마그네트론용세라믹부품",
+        "hsCode": "6914.90-9000",
+        "normalizedHsCode": "6914909000"
+      }
+    ]
+  },
+  {
+    "companyName": "율촌화학",
+    "items": [
+      {
+        "productName": "리튬이온배터리 파우치",
+        "hsCode": "7616.99-9010",
+        "normalizedHsCode": "7616999010"
+      },
+      {
+        "productName": "전도성 접합 필름",
+        "hsCode": "3921-90-2000",
+        "normalizedHsCode": "3921902000"
+      },
+      {
+        "productName": "알루미늄 파우치 필름",
+        "hsCode": "760720",
+        "normalizedHsCode": "760720"
+      }
+    ]
+  },
+  {
+    "companyName": "일진제강(주)",
+    "items": [
+      {
+        "productName": "운반용건설기계다단실린더용강관",
+        "hsCode": "7306.30-1090",
+        "normalizedHsCode": "7306301090"
+      }
+    ]
+  },
+  {
+    "companyName": "재영솔루텍(주)",
+    "items": [
+      {
+        "productName": "자동초점액추에이터",
+        "hsCode": "8501.10-1000",
+        "normalizedHsCode": "8501101000"
+      }
+    ]
+  },
+  {
+    "companyName": "제이엔케이히터(주)",
+    "items": [
+      {
+        "productName": "산업용가열로",
+        "hsCode": "8419.90-9090",
+        "normalizedHsCode": "8419909090"
+      }
+    ]
+  },
+  {
+    "companyName": "주식회사 동원에프앤비",
+    "items": [
+      {
+        "productName": "김",
+        "hsCode": "2106.90-4010",
+        "normalizedHsCode": "2106904010"
+      },
+      {
+        "productName": "돈육통조림",
+        "hsCode": "1602.49-1000",
+        "normalizedHsCode": "1602491000"
+      }
+    ]
+  },
+  {
+    "companyName": "케이비엠(주)",
+    "items": [
+      {
+        "productName": "진공증착열원부품",
+        "hsCode": "8516.80-0000",
+        "normalizedHsCode": "8516800000"
+      }
+    ]
+  },
+  {
+    "companyName": "케이엠씨(주)",
+    "items": [
+      {
+        "productName": "가스난방용볼밸브(압력:20kg/㎠~420kg/㎠)",
+        "hsCode": "8481.80.1090",
+        "normalizedHsCode": "8481801090"
+      }
+    ]
+  },
+  {
+    "companyName": "코리아에프티",
+    "items": [
+      {
+        "productName": "카본캐니스터",
+        "hsCode": "8421.39-9090",
+        "normalizedHsCode": "8421399090"
+      }
+    ]
+  },
+  {
+    "companyName": "코오롱머티리얼(주)",
+    "items": [
+      {
+        "productName": "아웃도어용투습방수습식코팅원단",
+        "hsCode": "5903.20-0000",
+        "normalizedHsCode": "5903200000"
+      }
+    ]
+  },
+  {
+    "companyName": "코오롱인더",
+    "items": [
+      {
+        "productName": "LDI용 드라이필름레지스트",
+        "hsCode": "3702-98-3000",
+        "normalizedHsCode": "3702983000"
+      },
+      {
+        "productName": "석유수지",
+        "hsCode": "3911.10-1000",
+        "normalizedHsCode": "3911101000"
+      },
+      {
+        "productName": "타이어코드",
+        "hsCode": "5902200000",
+        "normalizedHsCode": "5902200000"
+      },
+      {
+        "productName": "아라미드",
+        "hsCode": "5402110000",
+        "normalizedHsCode": "5402110000"
+      },
+      {
+        "productName": "pet필름",
+        "hsCode": "3920620000",
+        "normalizedHsCode": "3920620000"
+      }
+    ]
+  },
+  {
+    "companyName": "쿠쿠홈시스(주)",
+    "items": [
+      {
+        "productName": "정수기",
+        "hsCode": "8421211000",
+        "normalizedHsCode": "8421211000"
+      }
+    ]
+  },
+  {
+    "companyName": "크리스탈지노믹스(주)",
+    "items": [
+      {
+        "productName": "소염진통제",
+        "hsCode": "3004909900",
+        "normalizedHsCode": "3004909900"
+      }
+    ]
+  },
+  {
+    "companyName": "포스코강판(주)",
+    "items": [
+      {
+        "productName": "용융알루미늄도금강판",
+        "hsCode": "7210.69 / 7225.99",
+        "normalizedHsCode": "721069722599"
+      }
+    ]
+  },
+  {
+    "companyName": "한국유나이티드제약",
+    "items": [
+      {
+        "productName": "소염진통제",
+        "hsCode": "3004909900",
+        "normalizedHsCode": "3004909900"
+      },
+      {
+        "productName": "항혈전제",
+        "hsCode": "3004909900",
+        "normalizedHsCode": "3004909900"
+      }
+    ]
+  },
+  {
+    "companyName": "한화솔루션",
+    "items": [
+      {
+        "productName": "써멀라미필름용EVA",
+        "hsCode": "3901.30-0000",
+        "normalizedHsCode": "3901300000"
+      },
+      {
+        "productName": "태양광모듈",
+        "hsCode": "8541430000",
+        "normalizedHsCode": "8541430000"
+      },
+      {
+        "productName": "자일릴렌디이소시아네이트",
+        "hsCode": "2929-10-9000",
+        "normalizedHsCode": "2929109000"
+      },
+      {
+        "productName": "전력케이블절연용컴파운드",
+        "hsCode": "3901.10-9000",
+        "normalizedHsCode": "3901109000"
+      },
+      {
+        "productName": "태양전지용EVA",
+        "hsCode": "3901.30-0000",
+        "normalizedHsCode": "3901300000"
+      }
+    ]
+  },
+  {
+    "companyName": "해성옵틱스(주)",
+    "items": [
+      {
+        "productName": "스마트폰용13M렌즈모듈",
+        "hsCode": "9002.90-9090",
+        "normalizedHsCode": "9002909090"
+      }
+    ]
+  },
+  {
+    "companyName": "핸즈코퍼레이션(주)",
+    "items": [
+      {
+        "productName": "자동차용 알루미늄 휠",
+        "hsCode": "8708.70-0000",
+        "normalizedHsCode": "8708700000"
+      }
+    ]
+  },
+  {
+    "companyName": "현대삼호중공업(주)",
+    "items": [
+      {
+        "productName": "LNG운반선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "LPG운반선",
+        "hsCode": "8901-90",
+        "normalizedHsCode": "890190"
+      },
+      {
+        "productName": "대형석유제품운반선",
+        "hsCode": "8901.02-1000",
+        "normalizedHsCode": "8901021000"
+      },
+      {
+        "productName": "원유운반선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "자동차전용운반선",
+        "hsCode": "8901.90-1000",
+        "normalizedHsCode": "8901901000"
+      },
+      {
+        "productName": "초대형컨테이너선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      }
+    ]
+  },
+  {
+    "companyName": "현대일렉트릭앤에너지시스템(주)",
+    "items": [
+      {
+        "productName": "145kV가스절연개폐기",
+        "hsCode": "8535-30-3000",
+        "normalizedHsCode": "8535303000"
+      },
+      {
+        "productName": "345kV이상분로리액터",
+        "hsCode": "8504.50-1090",
+        "normalizedHsCode": "8504501090"
+      },
+      {
+        "productName": "내압방폭형전동기",
+        "hsCode": "8501-20-3000",
+        "normalizedHsCode": "8501203000"
+      },
+      {
+        "productName": "대용량전력용변압기(200kV-400kV)",
+        "hsCode": "8504-23-0000",
+        "normalizedHsCode": "8504230000"
+      },
+      {
+        "productName": "선박용고압트러스트전동기",
+        "hsCode": "853110",
+        "normalizedHsCode": "853110"
+      },
+      {
+        "productName": "선박용배전반",
+        "hsCode": "853720",
+        "normalizedHsCode": "853720"
+      }
+    ]
+  },
+  {
+    "companyName": "현대자동차(주)",
+    "items": [
+      {
+        "productName": "승용자동차",
+        "hsCode": "8703",
+        "normalizedHsCode": "8703"
+      }
+    ]
+  },
+  {
+    "companyName": "현대제철",
+    "items": [
+      {
+        "productName": "EPWP110유정용강관",
+        "hsCode": "7306.29-1000",
+        "normalizedHsCode": "7306291000"
+      },
+      {
+        "productName": "ERWJ55튜빙용강관",
+        "hsCode": "7306.29.2000",
+        "normalizedHsCode": "7306292000"
+      },
+      {
+        "productName": "ERWL80케이싱용강관",
+        "hsCode": "7306.29.1000",
+        "normalizedHsCode": "7306291000"
+      },
+      {
+        "productName": "ERW도어임팩트빔",
+        "hsCode": "7306302090 / 8708999000",
+        "normalizedHsCode": "73063020908708999000"
+      },
+      {
+        "productName": "ERW산업용보일러관",
+        "hsCode": "7306.30-2090",
+        "normalizedHsCode": "7306302090"
+      },
+      {
+        "productName": "H형강",
+        "hsCode": "7216.33.3000/4000/5000",
+        "normalizedHsCode": "721633300040005000"
+      },
+      {
+        "productName": "강널말뚝",
+        "hsCode": "7301.10-1000",
+        "normalizedHsCode": "7301101000"
+      },
+      {
+        "productName": "무한궤도",
+        "hsCode": "8431.49-9000",
+        "normalizedHsCode": "8431499000"
+      },
+      {
+        "productName": "부등변부등후앵글",
+        "hsCode": "7216.21-1000 / 7216.40-1000",
+        "normalizedHsCode": "72162110007216401000"
+      },
+      {
+        "productName": "열간압연용원심주조공구강롤",
+        "hsCode": "8455.30-1000",
+        "normalizedHsCode": "8455301000"
+      },
+      {
+        "productName": "자동차용 핫스탬핑",
+        "hsCode": "8708290000",
+        "normalizedHsCode": "8708290000"
+      },
+      {
+        "productName": "평행채널",
+        "hsCode": "7216310000",
+        "normalizedHsCode": "7216310000"
+      }
+    ]
+  },
+  {
+    "companyName": "현대중공업",
+    "items": [
+      {
+        "productName": "LNG운반선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      },
+      {
+        "productName": "LPG운반선",
+        "hsCode": "8901-90",
+        "normalizedHsCode": "890190"
+      },
+      {
+        "productName": "고정식원유생산플랫폼",
+        "hsCode": "7308.90-9000",
+        "normalizedHsCode": "7308909000"
+      },
+      {
+        "productName": "대형석유제품운반선",
+        "hsCode": "8901.02-1000",
+        "normalizedHsCode": "8901021000"
+      },
+      {
+        "productName": "대형엔진선반용터보챠져",
+        "hsCode": "8409.99-3030",
+        "normalizedHsCode": "8409993030"
+      },
+      {
+        "productName": "대형엔진용크랭크샤프트",
+        "hsCode": "8483.10-9090",
+        "normalizedHsCode": "8483109090"
+      },
+      {
+        "productName": "드릴쉽",
+        "hsCode": "8905.90-7000",
+        "normalizedHsCode": "8905907000"
+      },
+      {
+        "productName": "부유식액화천연가스저장재기화설비",
+        "hsCode": "8905.90-9000",
+        "normalizedHsCode": "8905909000"
+      },
+      {
+        "productName": "부유식해양석유가스생산저장및하역설비(FPSO)",
+        "hsCode": "8905.90-9000",
+        "normalizedHsCode": "8905909000"
+      },
+      {
+        "productName": "선박대형디젤엔진용실린더라이너",
+        "hsCode": "8409.99-3030",
+        "normalizedHsCode": "8409993030"
+      },
+      {
+        "productName": "선박디젤엔진(4행정식)",
+        "hsCode": "8404.10-3000",
+        "normalizedHsCode": "8404103000"
+      },
+      {
+        "productName": "선박엔진질소산화물저감장치",
+        "hsCode": "8421319000",
+        "normalizedHsCode": "8421319000"
+      },
+      {
+        "productName": "선박용고정식피치프로펠러",
+        "hsCode": "8803.10-0000",
+        "normalizedHsCode": "8803100000"
+      },
+      {
+        "productName": "선박용기관감시제어장치",
+        "hsCode": "8535-30-3000",
+        "normalizedHsCode": "8535303000"
+      },
+      {
+        "productName": "선박용대형디젤엔진(6000마력이상)",
+        "hsCode": "8408.10-3000",
+        "normalizedHsCode": "8408103000"
+      },
+      {
+        "productName": "선박중형디젤엔진용크랭크샤프트(4행정)",
+        "hsCode": "8483.10-9090",
+        "normalizedHsCode": "8483109090"
+      },
+      {
+        "productName": "선박추진축",
+        "hsCode": "8487.10-0000",
+        "normalizedHsCode": "8487100000"
+      },
+      {
+        "productName": "원유운반선용박용펌프",
+        "hsCode": "8411.22.90.10",
+        "normalizedHsCode": "8411229010"
+      },
+      {
+        "productName": "원통형FPSO",
+        "hsCode": "8905.90-9000",
+        "normalizedHsCode": "8905909000"
+      },
+      {
+        "productName": "이동식발전시스템",
+        "hsCode": "8502.13-2000",
+        "normalizedHsCode": "8502132000"
+      },
+      {
+        "productName": "중속디젤엔진발전설비",
+        "hsCode": "8502.12 외",
+        "normalizedHsCode": "850212"
+      },
+      {
+        "productName": "초대형컨테이너선",
+        "hsCode": "8901.20-0000",
+        "normalizedHsCode": "8901200000"
+      }
+    ]
+  },
+  {
+    "companyName": "현진소재",
+    "items": [
+      {
+        "productName": "선박엔진용 크로스 헤드 핀",
+        "hsCode": "8409.99-3030",
+        "normalizedHsCode": "8409993030"
+      },
+      {
+        "productName": "커넥팅로드",
+        "hsCode": "8409.99-3030",
+        "normalizedHsCode": "8409993030"
+      },
+      {
+        "productName": "풍력발전용로터회전축",
+        "hsCode": "8483.10-9090",
+        "normalizedHsCode": "8483109090"
+      },
+      {
+        "productName": "피스톤로드",
+        "hsCode": "8409.99-3030",
+        "normalizedHsCode": "8409993030"
+      }
+    ]
+  },
+  {
+    "companyName": "효성첨단소재",
+    "items": [
+      {
+        "productName": "안전벨트용폴리에스테르원사",
+        "hsCode": "5402200000",
+        "normalizedHsCode": "5402200000"
+      },
+      {
+        "productName": "타이어보강재용원사",
+        "hsCode": "5402200000",
+        "normalizedHsCode": "5402200000"
+      }
+    ]
+  },
+  {
+    "companyName": "효성티앤씨",
+    "items": [
+      {
+        "productName": "스판덱스원사",
+        "hsCode": "5402440000",
+        "normalizedHsCode": "5402440000"
+      },
+      {
+        "productName": "직접방사에의한폴리에스터극세사",
+        "hsCode": "5402339000 /5402469000",
+        "normalizedHsCode": "54023390005402469000"
+      },
+      {
+        "productName": "폴리에스터계신축섬유",
+        "hsCode": "5402471000",
+        "normalizedHsCode": "5402471000"
+      },
+      {
+        "productName": "폴리에스터쾌적기능장섬유사",
+        "hsCode": "5402339000 / 5402469000",
+        "normalizedHsCode": "54023390005402469000"
+      }
+    ]
+  },
+  {
+    "companyName": "효성화학",
+    "items": [
+      {
+        "productName": "냉온수관용PP계초고압파이프수지",
+        "hsCode": "3902.10-0000",
+        "normalizedHsCode": "3902100000"
+      }
+    ]
+  },
+  {
+    "companyName": "케이씨텍 / 동진쎄미켐 / 솔브레인",
+    "items": [
+      {
+        "productName": "CMP 연마제",
+        "hsCode": "381800",
+        "normalizedHsCode": "381800"
+      }
+    ]
+  },
+  {
+    "companyName": "코미코(미코세라믹스)",
+    "items": [
+      {
+        "productName": "세라믹 히터",
+        "hsCode": "854690",
+        "normalizedHsCode": "854690"
+      },
+      {
+        "productName": "세라믹 정전척(ESC)",
+        "hsCode": "854690",
+        "normalizedHsCode": "854690"
+      }
+    ]
+  },
+  {
+    "companyName": "ISC / 티에스이",
+    "items": [
+      {
+        "productName": "실리콘 러버 소켓",
+        "hsCode": "854890",
+        "normalizedHsCode": "854890"
+      }
+    ]
+  },
+  {
+    "companyName": "비씨엔씨",
+    "items": [
+      {
+        "productName": "쿼츠",
+        "hsCode": "281122",
+        "normalizedHsCode": "281122"
+      }
+    ]
+  },
+  {
+    "companyName": "원익QnC / 월덱스",
+    "items": [
+      {
+        "productName": "쿼츠웨어",
+        "hsCode": "702000",
+        "normalizedHsCode": "702000"
+      }
+    ]
+  },
+  {
+    "companyName": "하나머티리얼즈",
+    "items": [
+      {
+        "productName": "실리콘카바이드(SiC)",
+        "hsCode": "284920",
+        "normalizedHsCode": "284920"
+      }
+    ]
+  },
+  {
+    "companyName": "대덕전자 / 티엘비 / 코리아써키트",
+    "items": [
+      {
+        "productName": "인쇄회로기판(PCB)",
+        "hsCode": "853400",
+        "normalizedHsCode": "853400"
+      }
+    ]
+  },
+  {
+    "companyName": "심텍 / 샘씨엔에스",
+    "items": [
+      {
+        "productName": "메모리 모듈용 PCB",
+        "hsCode": "853400",
+        "normalizedHsCode": "853400"
+      }
+    ]
+  },
+  {
+    "companyName": "산일전기",
+    "items": [
+      {
+        "productName": "변압기",
+        "hsCode": "850423",
+        "normalizedHsCode": "850423"
+      }
+    ]
+  },
+  {
+    "companyName": "일진전기",
+    "items": [
+      {
+        "productName": "초고압 변압기",
+        "hsCode": "850423",
+        "normalizedHsCode": "850423"
+      }
+    ]
+  },
+  {
+    "companyName": "LS ELECTRIC",
+    "items": [
+      {
+        "productName": "초고압 변압기",
+        "hsCode": "850423",
+        "normalizedHsCode": "850423"
+      },
+      {
+        "productName": "자동차단기",
+        "hsCode": "853620",
+        "normalizedHsCode": "853620"
+      }
+    ]
+  },
+  {
+    "companyName": "HD현대일렉트릭",
+    "items": [
+      {
+        "productName": "자동차단기",
+        "hsCode": "853620",
+        "normalizedHsCode": "853620"
+      }
+    ]
+  },
+  {
+    "companyName": "LIG넥스원",
+    "items": [
+      {
+        "productName": "유도무기",
+        "hsCode": "930690",
+        "normalizedHsCode": "930690"
+      }
+    ]
+  },
+  {
+    "companyName": "HD현대중공업",
+    "items": [
+      {
+        "productName": "선박추진용 엔진",
+        "hsCode": "840810",
+        "normalizedHsCode": "840810"
+      }
+    ]
+  },
+  {
+    "companyName": "한화엔진 / HD현대마린엔진 / STX엔진",
+    "items": [
+      {
+        "productName": "선박추진용 엔진",
+        "hsCode": "840810",
+        "normalizedHsCode": "840810"
+      }
+    ]
+  },
+  {
+    "companyName": "대한조선",
+    "items": [
+      {
+        "productName": "탱커(LNG/VLCC/MR)",
+        "hsCode": "890120",
+        "normalizedHsCode": "890120"
+      }
+    ]
+  },
+  {
+    "companyName": "휴젤 / 메디톡스 / 대웅제약",
+    "items": [
+      {
+        "productName": "보툴리눔 톡신",
+        "hsCode": "300290",
+        "normalizedHsCode": "300290"
+      }
+    ]
+  },
+  {
+    "companyName": "파마리서치",
+    "items": [
+      {
+        "productName": "리쥬란(PN)",
+        "hsCode": "300490",
+        "normalizedHsCode": "300490"
+      },
+      {
+        "productName": "기초화장품",
+        "hsCode": "330499",
+        "normalizedHsCode": "330499"
+      }
+    ]
+  },
+  {
+    "companyName": "그래피",
+    "items": [
+      {
+        "productName": "형상기억 소재",
+        "hsCode": "902129",
+        "normalizedHsCode": "902129"
+      }
+    ]
+  },
+  {
+    "companyName": "엘앤에프",
+    "items": [
+      {
+        "productName": "NCM 양극재",
+        "hsCode": "283691",
+        "normalizedHsCode": "283691"
+      }
+    ]
+  }
+]
