@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* ── Brand Accent ── */
+  --color-accent:        #00C170;
+  --color-accent-light:  #E6FAF3;
+  --color-accent-dark:   #00965A;
+
+  /* ── Semantic ── */
+  --color-positive:      #00C170;
+  --color-negative:      #FF3B30;
+  --color-warning:       #FF9F0A;
+  --color-neutral:       #8E8E93;
+
+  /* ── Background ── */
+  --color-bg-primary:    #FFFFFF;
+  --color-bg-secondary:  #F5F5F7;
+  --color-bg-tertiary:   #FAFAFA;
+
+  /* ── Surface ── */
+  --color-surface-1:     #FFFFFF;
+  --color-surface-2:     #F9F9F9;
+  --color-surface-border:#E5E5E7;
+
+  /* ── Text ── */
+  --color-text-primary:  #1D1D1F;
+  --color-text-secondary:#6E6E73;
+  --color-text-tertiary: #AEAEB2;
+  --color-text-inverse:  #FFFFFF;
+
+  /* ── Charts ── */
+  --color-chart-1:       #5E6AD2;
+  --color-chart-2:       #26B5CE;
+  --color-chart-3:       #F2994A;
+  --color-chart-4:       #BB87FC;
+  --color-chart-grid:    #E5E5E7;
+
+  /* ── Typography ── */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "Cascadia Code", monospace;
+
+  /* ── Font Sizes ── */
+  --text-h1:       2.5rem;
+  --text-h2:       1.75rem;
+  --text-h3:       1.25rem;
+  --text-body-lg:  1.0625rem;
+  --text-body:     0.9375rem;
+  --text-label:    0.8125rem;
+  --text-caption:  0.6875rem;
+  --text-data-lg:  2rem;
+  --text-data-md:  1.25rem;
+
+  /* ── Border Radius ── */
+  --radius-card:   1rem;
+  --radius-btn:    0.75rem;
+  --radius-input:  0.625rem;
+  --radius-badge:  9999px;
+
+  /* ── Shadows ── */
+  --shadow-card:       0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  --shadow-card-hover: 0 4px 12px rgba(0,0,0,0.10);
+  --shadow-tooltip:    0 4px 12px rgba(0,0,0,0.15);
+
+  /* ── Animation ── */
+  --animate-shimmer: shimmer 1.5s infinite linear;
+  --animate-fade-in-up: fade-in-up 350ms ease-out forwards;
+  --animate-flash-positive: flash-positive 600ms ease-out forwards;
+  --animate-flash-negative: flash-negative 600ms ease-out forwards;
+
+  @keyframes shimmer {
+    0%   { background-position: -200% 0; }
+    100% { background-position:  200% 0; }
+  }
+  @keyframes fade-in-up {
+    0%   { opacity: 0; transform: translateY(8px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes flash-positive {
+    0%   { background-color: rgba(0, 193, 112, 0.3); }
+    100% { background-color: transparent; }
+  }
+  @keyframes flash-negative {
+    0%   { background-color: rgba(255, 59, 48, 0.3); }
+    100% { background-color: transparent; }
+  }
+}
+
+/* ── Design Tokens (CSS vars) ── */
+:root {
+  --sidebar-width: 240px;
+}
+
+/* ── Base styles ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* ── Utility classes ── */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.card {
+  background-color: var(--color-surface-1);
+  border: 1px solid var(--color-surface-border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.skeleton {
+  border-radius: 0.375rem;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+/* Scrollbar */
+.scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+.scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--color-surface-border);
+  border-radius: 3px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-tertiary);
+}
