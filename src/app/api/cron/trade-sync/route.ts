@@ -7,7 +7,8 @@ export const maxDuration = 300 // Pro 플랜: 최대 300초
 const CUSTOMS_BASE = "http://apis.data.go.kr/1220000/nitemtrade/getNitemtradeList"
 
 // 미리 저장할 국가 목록 ("" = 전체 합산)
-const CACHE_COUNTRIES = ["", "US", "CN", "JP", "VN", "DE"]
+// 국가별 확장은 추후 Pro 플랜 업그레이드 후 추가
+const CACHE_COUNTRIES = ["", "US"]
 
 interface CustomsItem {
   year: string
