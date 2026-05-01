@@ -38,7 +38,10 @@
       "Bash(echo \"# Scanner DB\")",
       "Bash(echo \"data/\")",
       "Bash(npx next:*)",
-      "Bash(ls /c/Users/heo/Desktop/edge-dashboard/.env*)"
+      "Bash(ls /c/Users/heo/Desktop/edge-dashboard/.env*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(npx vercel:*)"
     ]
   }
 }
