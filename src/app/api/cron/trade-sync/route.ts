@@ -2,6 +2,8 @@ import { NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
 import { TOP_HS_CODES } from "@/lib/trade-search"
 
+export const maxDuration = 300 // Pro 플랜: 최대 300초
+
 const CUSTOMS_BASE = "http://apis.data.go.kr/1220000/nitemtrade/getNitemtradeList"
 
 // 미리 저장할 국가 목록 ("" = 전체 합산)
@@ -157,11 +159,13 @@ export async function GET(request: Request) {
 
   let totalUpserted = 0
   const errors: string[] = []
+  const hsCodeList = TOP_HS_CODES.map((h) => h.code)
 
-  for (const country of CACHE_COUNTRIES) {
-    try {
+  // 모든 국가 병렬 처리
+  await Promise.all(
+    CACHE_COUNTRIES.map(async (country) => {
+      try {
       // 현재 기간 + 전년 동기 동시 fetch
-      const hsCodeList = TOP_HS_CODES.map((h) => h.code)
       const [currResults, prevResults] = await Promise.all([
         Promise.all(
           hsCodeList.map((code) =>
@@ -265,10 +269,11 @@ export async function GET(request: Request) {
         })
         totalUpserted++
       }
-    } catch (err) {
-      errors.push(`country=${country || "전체"}: ${String(err)}`)
-    }
-  }
+      } catch (err) {
+        errors.push(`country=${country || "전체"}: ${String(err)}`)
+      }
+    })
+  )
 
   return NextResponse.json({
     ok: true,
