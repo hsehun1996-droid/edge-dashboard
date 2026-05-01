@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server"
 import type { Sector } from "@/types"
 import { calculateRSScore } from "@/lib/market-data"
+import { withCache } from "@/lib/server-cache"
+
+const SECTOR_CACHE_TTL = 5 * 60 * 1000 // 5분
 
 // ─── Country Sector Definitions ───────────────────────────────────────────────
 
@@ -294,16 +297,26 @@ export async function GET(request: Request) {
   const timestamp = new Date().toISOString()
 
   try {
-    let sectors: Sector[]
-    switch (country) {
-      case "KR": sectors = await buildKRSectors(); break
-      case "JP": sectors = buildJPSectors(); break
-      case "CN": sectors = buildCNSectors(); break
-      default:   sectors = await buildUSSectors(); break
-    }
-    // Sort by RS Rating desc
-    sectors.sort((a, b) => b.rsRating - a.rsRating)
-    return NextResponse.json({ data: sectors, timestamp })
+    const sectors = await withCache(
+      `market:sectors:${country}`,
+      SECTOR_CACHE_TTL,
+      async () => {
+        let result: Sector[]
+        switch (country) {
+          case "KR": result = await buildKRSectors(); break
+          case "JP": result = buildJPSectors(); break
+          case "CN": result = buildCNSectors(); break
+          default:   result = await buildUSSectors(); break
+        }
+        result.sort((a, b) => b.rsRating - a.rsRating)
+        return result
+      }
+    )
+
+    return NextResponse.json(
+      { data: sectors, timestamp },
+      { headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=60" } }
+    )
   } catch (err) {
     return NextResponse.json({ error: "섹터 데이터 오류", timestamp }, { status: 500 })
   }

@@ -4,6 +4,9 @@ import {
   fetchKisOverseasQuote,
   tickerToKisExcd,
 } from "@/lib/kis"
+import { withCache } from "@/lib/server-cache"
+
+const PRICE_TTL = 60 * 1000 // 1분
 
 export interface PriceQuote {
   price: number
@@ -36,7 +39,7 @@ function parseKrTicker(ticker: string): { code: string; altSuffix: string } | nu
 }
 
 // ─── 단일 티커 시세 조회 ──────────────────────────────────────────────────────
-async function resolveQuote(ticker: string): Promise<PriceQuote | null> {
+async function fetchQuoteRaw(ticker: string): Promise<PriceQuote | null> {
   const kisEnabled = !!(process.env.KIS_APP_KEY && process.env.KIS_APP_SECRET)
   const kr = parseKrTicker(ticker)
 
@@ -74,10 +77,15 @@ export async function GET(request: Request) {
 
   const prices: Record<string, PriceQuote> = {}
 
+  // 각 티커를 개별 캐시 키로 관리 — 동시 요청이 몰려도 티커당 1번만 외부 API 호출
   await Promise.allSettled(
     tickers.map(async (ticker) => {
       try {
-        const quote = await resolveQuote(ticker)
+        const quote = await withCache(
+          `price:${ticker}`,
+          PRICE_TTL,
+          () => fetchQuoteRaw(ticker)
+        )
         if (quote) prices[ticker] = quote
       } catch {
         // 실패 무시
@@ -85,5 +93,8 @@ export async function GET(request: Request) {
     })
   )
 
-  return NextResponse.json({ data: prices })
+  return NextResponse.json(
+    { data: prices },
+    { headers: { "Cache-Control": "private, max-age=60, stale-while-revalidate=30" } }
+  )
 }

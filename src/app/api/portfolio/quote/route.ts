@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server"
 import type { KisQuote } from "@/lib/kis"
 import { fetchKisDomesticQuote, fetchKisOverseasQuote, tickerToKisExcd } from "@/lib/kis"
+import { withCache } from "@/lib/server-cache"
+
+const QUOTE_TTL = 60 * 1000 // 1분
 
 // ─── 한국 종목 감지 ───────────────────────────────────────────────────────────
 function parseKrTicker(ticker: string): { code: string; altSuffix: string } | null {
@@ -36,6 +39,32 @@ async function fetchYahooQuote(ticker: string): Promise<KisQuote | null> {
   }
 }
 
+// ─── 티커 시세 조회 (캐시 포함) ──────────────────────────────────────────────────
+async function resolveQuote(ticker: string): Promise<KisQuote | null> {
+  const kisEnabled = !!(process.env.KIS_APP_KEY && process.env.KIS_APP_SECRET)
+  const kr = parseKrTicker(ticker)
+
+  if (kr) {
+    if (kisEnabled) {
+      const quote = await fetchKisDomesticQuote(kr.code)
+      if (quote) return quote
+    }
+    return (await fetchYahooQuote(ticker)) ?? fetchYahooQuote(`${kr.code}.${kr.altSuffix}`)
+  }
+
+  if (kisEnabled) {
+    const excd = tickerToKisExcd(ticker)
+    if (excd) {
+      const symb = ticker.replace(/\.[A-Z]+$/i, "")
+      let quote = await fetchKisOverseasQuote(excd, symb)
+      if (!quote && excd === "NAS") quote = await fetchKisOverseasQuote("NYS", symb)
+      if (quote) return quote
+    }
+  }
+
+  return fetchYahooQuote(ticker)
+}
+
 // ─── Route handler ─────────────────────────────────────────────────────────────
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
@@ -45,35 +74,17 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "ticker 파라미터가 필요합니다" }, { status: 400 })
   }
 
-  const kisEnabled = !!(process.env.KIS_APP_KEY && process.env.KIS_APP_SECRET)
-  const kr = parseKrTicker(ticker)
+  const quote = await withCache(
+    `quote:${ticker}`,
+    QUOTE_TTL,
+    () => resolveQuote(ticker)
+  )
 
-  // 국내 주식
-  if (kr) {
-    if (kisEnabled) {
-      const quote = await fetchKisDomesticQuote(kr.code)
-      if (quote) return NextResponse.json({ data: quote })
-    }
-    // KIS 실패 시 Yahoo 폴백
-    const quote = await fetchYahooQuote(ticker)
-      ?? await fetchYahooQuote(`${kr.code}.${kr.altSuffix}`)
-    if (quote) return NextResponse.json({ data: quote })
-    return NextResponse.json({ error: "시세 조회 실패" }, { status: 502 })
+  if (quote) {
+    return NextResponse.json(
+      { data: quote },
+      { headers: { "Cache-Control": "private, max-age=60, stale-while-revalidate=30" } }
+    )
   }
-
-  // 해외 주식
-  if (kisEnabled) {
-    const excd = tickerToKisExcd(ticker)
-    if (excd) {
-      const symb = ticker.replace(/\.[A-Z]+$/i, "")
-      let quote = await fetchKisOverseasQuote(excd, symb)
-      if (!quote && excd === "NAS") quote = await fetchKisOverseasQuote("NYS", symb)
-      if (quote) return NextResponse.json({ data: quote })
-    }
-  }
-
-  // Yahoo 폴백
-  const quote = await fetchYahooQuote(ticker)
-  if (quote) return NextResponse.json({ data: quote })
   return NextResponse.json({ error: "시세 조회 실패" }, { status: 502 })
 }

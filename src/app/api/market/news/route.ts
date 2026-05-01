@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import type { NewsItem } from "@/types"
+import { withCache } from "@/lib/server-cache"
 
 const NAVER_FINANCE_NEWS_URL = "https://finance.naver.com/news/mainnews.naver"
 const BASE_URL = "https://finance.naver.com"
@@ -187,14 +188,17 @@ export async function GET() {
   const timestamp = new Date().toISOString()
 
   try {
-    const news = await fetchNaverFinanceNews()
+    const news = await withCache(
+      "market:news",
+      REVALIDATE_SECONDS * 1000,
+      fetchNaverFinanceNews
+    )
 
     if (news.length > 0) {
-      return NextResponse.json({
-        data: news,
-        timestamp,
-        source: "naver-finance",
-      })
+      return NextResponse.json(
+        { data: news, timestamp, source: "naver-finance" },
+        { headers: { "Cache-Control": "public, s-maxage=900, stale-while-revalidate=120" } }
+      )
     }
   } catch (error) {
     console.error("Failed to fetch market news from Naver Finance", error)
