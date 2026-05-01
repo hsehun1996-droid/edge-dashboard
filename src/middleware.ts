@@ -1,5 +1,9 @@
-import { auth } from "@/auth"
+import NextAuth from "next-auth"
+import { authConfig } from "@/auth.config"
 import { NextResponse } from "next/server"
+
+// Prisma를 import하지 않는 경량 auth — Edge 런타임 1MB 제한 준수
+const { auth } = NextAuth(authConfig)
 
 const INVITE_COOKIE = "edge_invite"
 
