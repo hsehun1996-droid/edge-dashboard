@@ -2,12 +2,12 @@ import NextAuth from "next-auth"
 import { authConfig } from "@/auth.config"
 import { NextResponse } from "next/server"
 
-// Prisma를 import하지 않는 경량 auth — Edge 런타임 1MB 제한 준수
+// Node.js 런타임에서 실행 (proxy.ts) — 크기 제한 없음
 const { auth } = NextAuth(authConfig)
 
 const INVITE_COOKIE = "edge_invite"
 
-export default auth(function middleware(req) {
+export default auth(function proxy(req) {
   const { pathname } = req.nextUrl
 
   // NextAuth 콜백 + 로그인 페이지는 항상 허용
