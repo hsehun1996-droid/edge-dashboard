@@ -10,8 +10,12 @@ const INVITE_COOKIE = "edge_invite"
 export default auth(function proxy(req) {
   const { pathname } = req.nextUrl
 
-  // NextAuth 콜백 + 로그인 페이지는 항상 허용
-  if (pathname.startsWith("/api/auth") || pathname === "/login") {
+  // NextAuth 콜백 + 로그인 페이지 + 크론 잡은 항상 허용
+  if (
+    pathname.startsWith("/api/auth") ||
+    pathname.startsWith("/api/cron") ||
+    pathname === "/login"
+  ) {
     return NextResponse.next()
   }
 
