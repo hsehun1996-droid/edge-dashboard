@@ -57,6 +57,30 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
+model TradeCache {
+  id                String   @id @default(cuid())
+  hsCode            String
+  country           String
+  year              Int
+  month             Int
+  productName       String
+  exportAmount      Float
+  importAmount      Float
+  exportQty         Float
+  importQty         Float
+  balance           Float
+  exportYoY         Float
+  importYoY         Float
+  avgExportPrice    Float
+  avgImportPrice    Float
+  avgExportPriceYoY Float
+  avgImportPriceYoY Float
+  syncedAt          DateTime @default(now())
+
+  @@unique([hsCode, country, year, month])
+  @@index([country, year, month])
+}
+
 model Portfolio {
   id            String    @id @default(cuid())
   userId        String

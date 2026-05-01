@@ -4,6 +4,7 @@ import type { CompanyHsCatalogEntry } from "@/lib/company-hs-catalog"
 import { findCompanyByQuery, getCompanyNormalizedHsCodes } from "@/lib/company-hs-catalog"
 import { normalizeHsCode, TOP_HS_CODES } from "@/lib/trade-search"
 import { isGenericProductName, lookupHsName } from "@/lib/hs-excel-lookup"
+import { prisma } from "@/lib/prisma"
 
 const CUSTOMS_BASE = "http://apis.data.go.kr/1220000/nitemtrade/getNitemtradeList"
 
@@ -380,6 +381,72 @@ function applyYoY(record: TradeRecord, item: CustomsItem, prevMap: Map<string, C
   }
 }
 
+// DB에 캐시된 데이터가 있으면 반환, 없으면 null
+async function queryTradeCache(params: {
+  country: string
+  year?: number
+  hsCode?: string
+}): Promise<TradeRecord[] | null> {
+  const dbCountry = params.country || "전체"
+
+  // 어떤 연월 범위를 찾을지 확인 (최근 12개월)
+  const latest = await prisma.tradeCache.findFirst({
+    where: { country: dbCountry },
+    orderBy: [{ year: "desc" }, { month: "desc" }],
+    select: { year: true, month: true, syncedAt: true },
+  })
+  if (!latest) return null
+
+  // 마지막 sync가 이번 달 15일 이후인지 확인 (오래된 캐시 무시)
+  const now = new Date()
+  const syncAge = now.getTime() - latest.syncedAt.getTime()
+  const maxAgeMs = 35 * 24 * 60 * 60 * 1000 // 35일
+  if (syncAge > maxAgeMs) return null
+
+  const endYear = latest.year
+  const endMonth = latest.month
+  const startDate = new Date(endYear, endMonth - 12, 1)
+
+  const where = {
+    country: dbCountry,
+    ...(params.hsCode ? { hsCode: { startsWith: params.hsCode.slice(0, 4) } } : {}),
+    OR: [
+      { year: { gt: startDate.getFullYear() } },
+      { year: startDate.getFullYear(), month: { gte: startDate.getMonth() + 1 } },
+    ],
+  }
+
+  if (params.year) {
+    Object.assign(where, { year: params.year })
+    delete (where as Record<string, unknown>).OR
+  }
+
+  const rows = await prisma.tradeCache.findMany({ where })
+  if (rows.length === 0) return null
+
+  return rows.map((row) => ({
+    hsCode: row.hsCode,
+    productName: row.productName,
+    country: row.country,
+    year: row.year,
+    month: row.month,
+    exportAmount: row.exportAmount,
+    importAmount: row.importAmount,
+    exportQty: row.exportQty,
+    importQty: row.importQty,
+    unit: "달러",
+    balance: row.balance,
+    exportYoY: row.exportYoY,
+    importYoY: row.importYoY,
+    exportMoM: 0,
+    importMoM: 0,
+    avgExportPrice: row.avgExportPrice,
+    avgImportPrice: row.avgImportPrice,
+    avgExportPriceYoY: row.avgExportPriceYoY,
+    avgImportPriceYoY: row.avgImportPriceYoY,
+  }))
+}
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const query = searchParams.get("q") ?? ""
@@ -395,9 +462,19 @@ export async function GET(request: Request) {
       return NextResponse.json({ data: generateMockData(country, companyEntry), timestamp, source: "mock" })
     }
 
+    // 회사나 세부 HS 코드 검색이 아닌 기본 쿼리는 DB 캐시 우선 조회
+    const searchHs = companyEntry ? undefined : normalizeHsCode(hsParam) ?? normalizeHsCode(query)
+    const isDefaultQuery = !companyEntry && (!searchHs || searchHs.length <= 4)
+
+    if (isDefaultQuery) {
+      const cached = await queryTradeCache({ country, year, hsCode: searchHs })
+      if (cached) {
+        return NextResponse.json({ data: cached, timestamp, source: "cache" })
+      }
+    }
+
     const { strtYymm, endYymm } = await resolveDateRange(country, year)
     const companyHsCodes = companyEntry ? getCompanyNormalizedHsCodes(companyEntry.companyName) : []
-    const searchHs = companyEntry ? undefined : normalizeHsCode(hsParam) ?? normalizeHsCode(query)
     const isDetailedHsSearch = Boolean(searchHs && searchHs.length > 4)
 
     const fetchParams = { country, companyHsCodes, searchHs }
