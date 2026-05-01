@@ -2,13 +2,9 @@ import { NextResponse } from "next/server"
 import { prisma } from "@/lib/prisma"
 import { TOP_HS_CODES } from "@/lib/trade-search"
 
-export const maxDuration = 300 // Pro 플랜: 최대 300초
+export const maxDuration = 300
 
 const CUSTOMS_BASE = "http://apis.data.go.kr/1220000/nitemtrade/getNitemtradeList"
-
-// 미리 저장할 국가 목록 ("" = 전체 합산)
-// 국가별 확장은 추후 Pro 플랜 업그레이드 후 추가
-const CACHE_COUNTRIES = ["", "US"]
 
 interface CustomsItem {
   year: string
@@ -27,7 +23,6 @@ function parseXml(xml: string): CustomsItem[] {
   const items: CustomsItem[] = []
   const itemRe = /<item>([\s\S]*?)<\/item>/g
   let match: RegExpExecArray | null
-
   while ((match = itemRe.exec(xml)) !== null) {
     const inner = match[1]
     const get = (tag: string) => {
@@ -37,49 +32,56 @@ function parseXml(xml: string): CustomsItem[] {
     const year = get("year")
     if (!/^\d{4}\.\d{2}$/.test(year)) continue
     items.push({
-      year,
-      statCd: get("statCd"),
-      statCdCntnKor1: get("statCdCntnKor1"),
-      statKor: get("statKor"),
-      hsCd: get("hsCd"),
-      expWgt: get("expWgt"),
-      expDlr: get("expDlr"),
-      impWgt: get("impWgt"),
-      impDlr: get("impDlr"),
+      year, statCd: get("statCd"), statCdCntnKor1: get("statCdCntnKor1"),
+      statKor: get("statKor"), hsCd: get("hsCd"),
+      expWgt: get("expWgt"), expDlr: get("expDlr"),
+      impWgt: get("impWgt"), impDlr: get("impDlr"),
       balPayments: get("balPayments"),
     })
   }
   return items
 }
 
-async function fetchOne(params: {
-  strtYymm: string
-  endYymm: string
-  hsSgn: string
-  cntyCd: string
-}): Promise<CustomsItem[]> {
+async function fetchMonth(yymm: string, hsSgn: string): Promise<CustomsItem[]> {
   const apiKey = process.env.CUSTOMS_API_KEY!
   const qs = new URLSearchParams({
     serviceKey: apiKey,
-    strtYymm: params.strtYymm,
-    endYymm: params.endYymm,
-    hsSgn: params.hsSgn,
+    strtYymm: yymm,
+    endYymm: yymm,
+    hsSgn,
   })
-  if (params.cntyCd) qs.set("cntyCd", params.cntyCd)
-
   const res = await fetch(`${CUSTOMS_BASE}?${qs}`, {
     headers: { Accept: "application/xml" },
     cache: "no-store",
   })
   if (!res.ok) return []
-
   const text = await res.text()
   const codeMatch = text.match(/<resultCode>(.*?)<\/resultCode>/)
   if (codeMatch && codeMatch[1] !== "00") return []
-
   return parseXml(text)
 }
 
+function sumAcrossCountries(items: CustomsItem[]): CustomsItem[] {
+  const map = new Map<string, CustomsItem>()
+  for (const item of items) {
+    const existing = map.get(item.hsCd)
+    if (!existing) {
+      map.set(item.hsCd, { ...item, statCd: "", statCdCntnKor1: "전체" })
+    } else {
+      map.set(item.hsCd, {
+        ...existing,
+        expDlr: String(parseFloat(existing.expDlr || "0") + parseFloat(item.expDlr || "0")),
+        impDlr: String(parseFloat(existing.impDlr || "0") + parseFloat(item.impDlr || "0")),
+        expWgt: String(parseFloat(existing.expWgt || "0") + parseFloat(item.expWgt || "0")),
+        impWgt: String(parseFloat(existing.impWgt || "0") + parseFloat(item.impWgt || "0")),
+        balPayments: String(parseFloat(existing.balPayments || "0") + parseFloat(item.balPayments || "0")),
+      })
+    }
+  }
+  return Array.from(map.values())
+}
+
+// YYYY.MM → YYYYMM
 function shiftYymm(yymm: string, offsetMonths: number): string {
   const year = parseInt(yymm.slice(0, 4), 10)
   const month = parseInt(yymm.slice(4, 6), 10)
@@ -87,57 +89,7 @@ function shiftYymm(yymm: string, offsetMonths: number): string {
   return `${date.getFullYear()}${String(date.getMonth() + 1).padStart(2, "0")}`
 }
 
-async function findLatestAvailableMonth(): Promise<string | null> {
-  const now = new Date()
-  const candidate = `${now.getFullYear()}${String(now.getMonth()).padStart(2, "0")}` // 전달
-
-  for (let offset = 0; offset < 6; offset++) {
-    const probeMonth = shiftYymm(candidate, -offset)
-    const items = await fetchOne({
-      strtYymm: probeMonth,
-      endYymm: probeMonth,
-      hsSgn: TOP_HS_CODES[0].code,
-      cntyCd: "US",
-    })
-    if (items.length > 0) return probeMonth
-  }
-  return null
-}
-
-function buildPrevYearMap(items: CustomsItem[]): Map<string, CustomsItem> {
-  const map = new Map<string, CustomsItem>()
-  for (const item of items) {
-    const month = item.year.split(".")[1] ?? ""
-    map.set(`${item.hsCd}_${month}`, item)
-  }
-  return map
-}
-
-function sumAcrossCountries(items: CustomsItem[]): CustomsItem[] {
-  const map = new Map<string, CustomsItem>()
-  for (const item of items) {
-    const key = `${item.hsCd}__${item.year}`
-    const existing = map.get(key)
-    if (!existing) {
-      map.set(key, { ...item, statCd: "", statCdCntnKor1: "전체" })
-    } else {
-      map.set(key, {
-        ...existing,
-        expDlr: String(parseFloat(existing.expDlr || "0") + parseFloat(item.expDlr || "0")),
-        impDlr: String(parseFloat(existing.impDlr || "0") + parseFloat(item.impDlr || "0")),
-        expWgt: String(parseFloat(existing.expWgt || "0") + parseFloat(item.expWgt || "0")),
-        impWgt: String(parseFloat(existing.impWgt || "0") + parseFloat(item.impWgt || "0")),
-        balPayments: String(
-          parseFloat(existing.balPayments || "0") + parseFloat(item.balPayments || "0")
-        ),
-      })
-    }
-  }
-  return Array.from(map.values())
-}
-
 export async function GET(request: Request) {
-  // Vercel Cron은 Authorization 헤더로 보호
   const authHeader = request.headers.get("authorization")
   if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
@@ -148,138 +100,81 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "CUSTOMS_API_KEY not set" }, { status: 500 })
   }
 
-  const latestMonth = await findLatestAvailableMonth()
-  if (!latestMonth) {
-    return NextResponse.json({ error: "No data available from customs API" }, { status: 503 })
+  // 크론은 15일에 실행 → 전달 데이터가 나와 있음
+  const { searchParams } = new URL(request.url)
+  const now = new Date()
+  const defaultYymm = `${now.getFullYear()}${String(now.getMonth()).padStart(2, "0")}` // 전달
+
+  // ?yymm=202503 으로 수동 지정 가능
+  const targetYymm = searchParams.get("yymm") ?? defaultYymm
+  const prevYymm = shiftYymm(targetYymm, -12) // 전년 동월
+
+  const hsCodes = TOP_HS_CODES.map((h) => h.code)
+
+  // 현재 월 + 전년 동월 동시 fetch (20 + 20 = 40 병렬 호출)
+  const [currResults, prevResults] = await Promise.all([
+    Promise.all(hsCodes.map((code) => fetchMonth(targetYymm, code))),
+    Promise.all(hsCodes.map((code) => fetchMonth(prevYymm, code))),
+  ])
+
+  const currItems = sumAcrossCountries(currResults.flat())
+  const prevItems = sumAcrossCountries(prevResults.flat())
+  const prevMap = new Map(prevItems.map((item) => [item.hsCd, item]))
+
+  if (currItems.length === 0) {
+    return NextResponse.json({ error: `No data for ${targetYymm}`, targetYymm }, { status: 404 })
   }
 
-  const endYymm = latestMonth
-  const strtYymm = shiftYymm(endYymm, -11) // 최근 12개월
-  const prevStrtYymm = shiftYymm(strtYymm, -12)
-  const prevEndYymm = shiftYymm(endYymm, -12)
+  const [yearStr, monthStr] = currItems[0].year.split(".")
+  const year = parseInt(yearStr)
+  const month = parseInt(monthStr)
 
-  let totalUpserted = 0
-  const errors: string[] = []
-  const hsCodeList = TOP_HS_CODES.map((h) => h.code)
+  // 배치 upsert: 해당 월 기존 데이터 삭제 후 일괄 insert
+  await prisma.tradeCache.deleteMany({ where: { country: "전체", year, month } })
 
-  // 모든 국가 병렬 처리
-  await Promise.all(
-    CACHE_COUNTRIES.map(async (country) => {
-      try {
-      // 현재 기간 + 전년 동기 동시 fetch
-      const [currResults, prevResults] = await Promise.all([
-        Promise.all(
-          hsCodeList.map((code) =>
-            fetchOne({ strtYymm, endYymm, hsSgn: code, cntyCd: country })
-          )
-        ),
-        Promise.all(
-          hsCodeList.map((code) =>
-            fetchOne({ strtYymm: prevStrtYymm, endYymm: prevEndYymm, hsSgn: code, cntyCd: country })
-          )
-        ),
-      ])
+  const rows = currItems.map((item) => {
+    const prev = prevMap.get(item.hsCd)
+    const exportAmount = parseFloat(item.expDlr) || 0
+    const importAmount = parseFloat(item.impDlr) || 0
+    const exportQty = parseFloat(item.expWgt) || 0
+    const importQty = parseFloat(item.impWgt) || 0
+    const prevExport = parseFloat(prev?.expDlr ?? "0") || 0
+    const prevImport = parseFloat(prev?.impDlr ?? "0") || 0
+    const prevExportQty = parseFloat(prev?.expWgt ?? "0") || 0
+    const prevImportQty = parseFloat(prev?.impWgt ?? "0") || 0
+    const avgExportPrice = exportQty > 0 ? exportAmount / exportQty : 0
+    const avgImportPrice = importQty > 0 ? importAmount / importQty : 0
+    const prevAvgExport = prevExportQty > 0 ? prevExport / prevExportQty : 0
+    const prevAvgImport = prevImportQty > 0 ? prevImport / prevImportQty : 0
+    const hsLabel = TOP_HS_CODES.find((h) => h.code === item.hsCd.slice(0, 4))?.name ?? item.statKor
 
-      let currItems = currResults.flat()
-      let prevItems = prevResults.flat()
+    return {
+      hsCode: item.hsCd,
+      country: "전체",
+      year,
+      month,
+      productName: hsLabel,
+      exportAmount,
+      importAmount,
+      exportQty,
+      importQty,
+      balance: parseFloat(item.balPayments) || exportAmount - importAmount,
+      exportYoY: prevExport > 0 ? ((exportAmount - prevExport) / prevExport) * 100 : 0,
+      importYoY: prevImport > 0 ? ((importAmount - prevImport) / prevImport) * 100 : 0,
+      avgExportPrice,
+      avgImportPrice,
+      avgExportPriceYoY: prevAvgExport > 0 && avgExportPrice > 0
+        ? ((avgExportPrice - prevAvgExport) / prevAvgExport) * 100 : 0,
+      avgImportPriceYoY: prevAvgImport > 0 && avgImportPrice > 0
+        ? ((avgImportPrice - prevAvgImport) / prevAvgImport) * 100 : 0,
+    }
+  })
 
-      // 전체(국가 미지정)는 국가별 합산
-      if (!country) {
-        currItems = sumAcrossCountries(currItems)
-        prevItems = sumAcrossCountries(prevItems)
-      }
-
-      const prevMap = buildPrevYearMap(prevItems)
-
-      // DB upsert
-      for (const item of currItems) {
-        const [yearStr, monthStr] = item.year.split(".")
-        const year = parseInt(yearStr)
-        const month = parseInt(monthStr)
-        const exportAmount = parseFloat(item.expDlr) || 0
-        const importAmount = parseFloat(item.impDlr) || 0
-        const exportQty = parseFloat(item.expWgt) || 0
-        const importQty = parseFloat(item.impWgt) || 0
-
-        const prev = prevMap.get(`${item.hsCd}_${monthStr}`)
-        const prevExport = parseFloat(prev?.expDlr ?? "0") || 0
-        const prevImport = parseFloat(prev?.impDlr ?? "0") || 0
-        const prevExportQty = parseFloat(prev?.expWgt ?? "0") || 0
-        const prevImportQty = parseFloat(prev?.impWgt ?? "0") || 0
-        const avgExportPrice = exportQty > 0 ? exportAmount / exportQty : 0
-        const avgImportPrice = importQty > 0 ? importAmount / importQty : 0
-        const prevAvgExport = prevExportQty > 0 ? prevExport / prevExportQty : 0
-        const prevAvgImport = prevImportQty > 0 ? prevImport / prevImportQty : 0
-
-        const hsLabel = TOP_HS_CODES.find((h) => h.code === item.hsCd.slice(0, 4))?.name ?? item.statKor
-
-        await prisma.tradeCache.upsert({
-          where: {
-            hsCode_country_year_month: {
-              hsCode: item.hsCd,
-              country: country || "전체",
-              year,
-              month,
-            },
-          },
-          update: {
-            productName: hsLabel,
-            exportAmount,
-            importAmount,
-            exportQty,
-            importQty,
-            balance: parseFloat(item.balPayments) || exportAmount - importAmount,
-            exportYoY: prevExport > 0 ? ((exportAmount - prevExport) / prevExport) * 100 : 0,
-            importYoY: prevImport > 0 ? ((importAmount - prevImport) / prevImport) * 100 : 0,
-            avgExportPrice,
-            avgImportPrice,
-            avgExportPriceYoY:
-              prevAvgExport > 0 && avgExportPrice > 0
-                ? ((avgExportPrice - prevAvgExport) / prevAvgExport) * 100
-                : 0,
-            avgImportPriceYoY:
-              prevAvgImport > 0 && avgImportPrice > 0
-                ? ((avgImportPrice - prevAvgImport) / prevAvgImport) * 100
-                : 0,
-            syncedAt: new Date(),
-          },
-          create: {
-            hsCode: item.hsCd,
-            country: country || "전체",
-            year,
-            month,
-            productName: hsLabel,
-            exportAmount,
-            importAmount,
-            exportQty,
-            importQty,
-            balance: parseFloat(item.balPayments) || exportAmount - importAmount,
-            exportYoY: prevExport > 0 ? ((exportAmount - prevExport) / prevExport) * 100 : 0,
-            importYoY: prevImport > 0 ? ((importAmount - prevImport) / prevImport) * 100 : 0,
-            avgExportPrice,
-            avgImportPrice,
-            avgExportPriceYoY:
-              prevAvgExport > 0 && avgExportPrice > 0
-                ? ((avgExportPrice - prevAvgExport) / prevAvgExport) * 100
-                : 0,
-            avgImportPriceYoY:
-              prevAvgImport > 0 && avgImportPrice > 0
-                ? ((avgImportPrice - prevAvgImport) / prevAvgImport) * 100
-                : 0,
-          },
-        })
-        totalUpserted++
-      }
-      } catch (err) {
-        errors.push(`country=${country || "전체"}: ${String(err)}`)
-      }
-    })
-  )
+  await prisma.tradeCache.createMany({ data: rows })
 
   return NextResponse.json({
     ok: true,
-    range: { strtYymm, endYymm },
-    totalUpserted,
-    errors,
+    targetYymm,
+    inserted: rows.length,
   })
 }
